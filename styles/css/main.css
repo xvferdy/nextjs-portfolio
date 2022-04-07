@@ -1,32 +1,13 @@
+p {
+  font-size: 1.6rem;
+}
+
 /* ====== */
 /* COLORS */
 /* ====== */
 /* ====== */
 /* FONTS */
 /* ====== */
-@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  font-family: "Kumbh Sans", sans-serif;
-}
-
-body {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-}
-
-p {
-  font-size: 1.6rem;
-}
-
 .page {
   max-width: 111rem;
   min-height: calc(100vh - 80px);
@@ -48,10 +29,33 @@ p {
 }
 
 /*  TABLE OF CONTENTS
-============***============
+========================
 -- base imports
 -- component imports
 -- layout imports
+-- reset
+========================
 */
+/* base imports */
+/* components imports */
+/* layout imports */
+/* reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
 
 /*# sourceMappingURL=main.css.map */
