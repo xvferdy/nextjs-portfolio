@@ -11,6 +11,7 @@
 - [ ] check chrome
 - [ ] hero p line height
 - [ ] footer logo margin
+- [ ] new commit from: .eslint, .gitignore, readme, next.config
 
 **hard**
 - [ ] footer
