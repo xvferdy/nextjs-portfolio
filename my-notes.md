@@ -16,6 +16,7 @@
 - [ ] check & see html inspector
 - [ ] check f12 console
 - [ ] change google font
+- [ ] rapihkan main.scss
 
 **hard**
 - [ ] footer

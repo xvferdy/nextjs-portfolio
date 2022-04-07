@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className="about">
+    <section className="about container">
       About <button>clixk</button>
     </section>
   );

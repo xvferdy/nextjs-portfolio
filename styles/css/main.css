@@ -1,14 +1,38 @@
+/* === COLORS === */
+/* === FONTS === */
+/* === CONTAINER === */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: inherit;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #1f1f38;
+  background-image: url(../../../public/assets/bg-texture.png);
+  color: #fff;
+  line-height: 1.7;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 p {
   font-size: 1.6rem;
-}
-
-.header {
-  border: 1px solid #000;
-  font-size: 1.6rem;
-}
-
-.nav {
-  background-color: pink;
 }
 
 .about {
@@ -35,20 +59,12 @@ p {
   border: 1px solid #000;
 }
 
-.footer {
-  border: 1px solid #000;
-}
-
-/* COLORS */
-/* FONTS */
 .page {
   max-width: 111rem;
   min-height: calc(100vh - 80px);
   margin: 0 auto;
   padding: 9rem 4rem;
   padding-bottom: 4rem;
-  display: grid;
-  gap: 1rem;
 }
 @media only screen and (max-width: 1200px) {
   .page {
@@ -63,6 +79,23 @@ p {
   }
 }
 
+.container {
+  background-color: aqua;
+}
+
+.header {
+  border: 1px solid #000;
+  font-size: 1.6rem;
+}
+
+.nav {
+  background-color: pink;
+}
+
+.footer {
+  border: 1px solid #000;
+}
+
 /* ========================  
 TABLE OF CONTENTS:
 - base imports
@@ -73,27 +106,5 @@ TABLE OF CONTENTS:
 /* base imports */
 /* components imports */
 /* layout imports */
-/* reset */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  list-style: none;
-  text-decoration: none;
-  box-sizing: inherit;
-  font-family: "Kumbh Sans", sans-serif;
-}
-
-body {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-}
 
 /*# sourceMappingURL=main.css.map */

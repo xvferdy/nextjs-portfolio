@@ -1,21 +1,32 @@
-// this file move to main.scss (THIS FILE WILL BE DELETE)
+// this file move to main.scss (except google font)
 
-/* @use '../abstracts/variables' as *;
+ @use '../abstracts/variables' as *;
 
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
   box-sizing: inherit;
+  // font-family: "Kumbh Sans", sans-serif;
   font-family: $primary-font;
 }
-
 body {
   box-sizing: border-box;
+  background-color:$background-color ;
+  background-image: url(../../../public/assets/bg-texture.png);
+  color: $white;
+  line-height: 1.7;
 }
-
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-} */
+  // scrollbar-width: none;
+}
+::-webkit-scrollbar{
+  display: none;
+}
