@@ -1,4 +1,6 @@
 import React from "react";
+import me from "../public/assets/me-ori.png";
+import Image from "next/image";
 
 function About() {
   return (
@@ -8,6 +10,12 @@ function About() {
       <button className="btn btn--primary">primary</button>
       <div className="inline">
         {/* <img src="/assets/me-ori.png" alt="" /> */}
+        <Image
+          src="/assets/me-ori.png"
+          width={300}
+          height={300}
+          alt="aaaaaaaaaaaaaaaa"
+        />
       </div>
       <p>hello</p>
     </section>
