@@ -47,6 +47,12 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <Image
+          src="/assets/me-about-ori.jpg"
+          alt="me"
+          width={128}
+          height={128}
+        />
       </main>
 
       <footer>
