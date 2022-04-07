@@ -35,6 +35,14 @@ p {
   font-size: 1.6rem;
 }
 
+h1, h2, h3, h4, h5 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
 .about {
   border: 1px solid #000;
 }
@@ -60,27 +68,19 @@ p {
 }
 
 .page {
-  max-width: 111rem;
   min-height: calc(100vh - 80px);
+}
+.container {
+  width: 75%;
   margin: 0 auto;
-  padding: 9rem 4rem;
-  padding-bottom: 4rem;
-}
-@media only screen and (max-width: 1200px) {
-  .page {
-    padding: 6rem 4rem;
-    padding-bottom: 4rem;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .page {
-    padding: 0;
-    padding-bottom: 12rem;
-  }
 }
 
-.container {
-  background-color: aqua;
+section {
+  margin-top: 8rem;
+}
+section h2, section h5 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .header {

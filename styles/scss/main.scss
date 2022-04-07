@@ -7,22 +7,20 @@ TABLE OF CONTENTS:
 ======================== */
 
 /* base imports */
-@use './base/reset';
-@use './base/typography';
+@use "./base/reset";
+@use "./base/typography";
 
 /* components imports */
 
-@use './components/about';
-@use './components/experience';
-@use './components/service';
-@use './components/portfolio';
-@use './components/testimonials';
-@use './components/contact';
+@use "./components/about";
+@use "./components/experience";
+@use "./components/service";
+@use "./components/portfolio";
+@use "./components/testimonials";
+@use "./components/contact";
 
 /* layout imports */
-@use './layouts/layout';
-@use './layouts/header';
-@use './layouts/nav';
-@use './layouts/footer';
-
-
+@use "./layouts/layout";
+@use "./layouts/header";
+@use "./layouts/nav";
+@use "./layouts/footer";

@@ -1,5 +1,30 @@
+@use "../abstracts/" as *;
+
 p {
-  font-size: 1.6rem;
+  // font-size: 1.6rem;
   // line-height: 2.6rem;
   // font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: map-get($font-weights, regular);
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+.text-light {
+  color: $light;
+}
+
+a {
+  color: $primary-color;
+  transition: $transition;
+  &:hover {
+    color: $white;
+  }
 }

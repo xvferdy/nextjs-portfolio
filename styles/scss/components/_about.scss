@@ -1,3 +1,4 @@
-.about{
+@use "../abstracts/" as *;
+.about {
   border: 1px solid #000;
 }
