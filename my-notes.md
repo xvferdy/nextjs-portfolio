@@ -6,12 +6,16 @@
 - [ ] web title
 - [ ] color naming
 - [ ] delete unused file (like this one)
+- [ ] delete unused code (import, ect)
 - [ ] semantic html
 - [ ] typo html content
 - [ ] check chrome
 - [ ] hero p line height
 - [ ] footer logo margin
 - [ ] new commit from: .eslint, .gitignore, readme, next.config
+- [ ] check & see html inspector
+- [ ] check f12 console
+- [ ] change google font
 
 **hard**
 - [ ] footer

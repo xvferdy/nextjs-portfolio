@@ -2,18 +2,53 @@ p {
   font-size: 1.6rem;
 }
 
-/* ====== */
+.header {
+  border: 1px solid #000;
+  font-size: 1.6rem;
+}
+
+.nav {
+  background-color: pink;
+}
+
+.about {
+  border: 1px solid #000;
+}
+
+.experience {
+  background-color: pink;
+}
+
+.service {
+  border: 1px solid #000;
+}
+
+.portfolio {
+  border: 1px solid #000;
+}
+
+.testimonials {
+  background-color: pink;
+}
+
+.contact {
+  border: 1px solid #000;
+}
+
+.footer {
+  border: 1px solid #000;
+}
+
 /* COLORS */
-/* ====== */
-/* ====== */
 /* FONTS */
-/* ====== */
 .page {
   max-width: 111rem;
   min-height: calc(100vh - 80px);
   margin: 0 auto;
   padding: 9rem 4rem;
   padding-bottom: 4rem;
+  display: grid;
+  gap: 1rem;
 }
 @media only screen and (max-width: 1200px) {
   .page {
@@ -28,14 +63,13 @@ p {
   }
 }
 
-/*  TABLE OF CONTENTS
-========================
--- base imports
--- component imports
--- layout imports
--- reset
-========================
-*/
+/* ========================  
+TABLE OF CONTENTS:
+- base imports
+- component imports
+- layout imports
+- reset
+======================== */
 /* base imports */
 /* components imports */
 /* layout imports */
@@ -45,6 +79,10 @@ p {
 *::after {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
   box-sizing: inherit;
   font-family: "Kumbh Sans", sans-serif;
 }

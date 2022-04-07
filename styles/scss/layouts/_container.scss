@@ -1,4 +1,4 @@
-@use "../abstracts/" as *;
+/* @use "../abstracts/" as *;
 
 .page {
 	max-width: 111rem;
@@ -6,6 +6,11 @@
 	margin: 0 auto;
 	padding: 9rem 4rem;
 	padding-bottom: 4rem;
+
+  display: grid;
+  gap: 1rem;
+
+
 	@include display(tab-land) {
 		padding: 6rem 4rem;
 		padding-bottom: 4rem;
@@ -14,4 +19,4 @@
 		padding: 0;
 		padding-bottom: 12rem;
 	}
-}
+} */

@@ -1,9 +1,18 @@
 import Head from "next/head";
 import Image from "next/image";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Experience from "../components/Experience";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Nav from "../components/Nav";
+import Portfolio from "../components/Portfolio";
+import Service from "../components/Service";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>berlianto</title>
         <meta name="keyword" content="Portfolio, resume" />
@@ -15,58 +24,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header />
+      <Nav />
       <main className="page">
-        <h1>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p>
-          Get started by editing <code>pages/index.js</code>
-        </p>
-
-        <div>
-          <a href="https://nextjs.org/docs">
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn">
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a href="https://github.com/vercel/next.js/tree/canary/examples">
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app">
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-        <Image
-          src="/assets/me-about-ori.jpg"
-          alt="me"
-          width={128}
-          height={128}
-        />
+        <About />
+        <Experience />
+        <Service />
+        <Portfolio />
+        <Testimonials />
+        <Contact />
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
-    </div>
+      <Footer />
+    </>
   );
 }
