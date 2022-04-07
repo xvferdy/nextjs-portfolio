@@ -1,13 +1,26 @@
-/* ====== */
-/* COLORS */
-/* ====== */
-
-/* ====== */
-/* FONTS */
-/* ====== */
-$font-weights: (
-	"regular": 400,
-	"bold": 700,
+/* === COLORS === */
+$background-color: #1f1f38;
+$background-variant-color: #2c2c6c;
+$primary-color: #4db5ff;
+$primary-variant-color: rgba(77, 181, 255, 0.4);
+$white: #fff;
+$light: rgba(255, 255, 255, 0.6);
+$theme-colors: (
+  "primary": $primary-color,
 );
 
+/* === FONTS === */
+// @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+$font-weights: (
+  "regular": 400,
+  "bold": 700,
+);
 $primary-font: "Kumbh Sans", sans-serif;
+
+/* === CONTAINERS === */
+$width-lg: 75%;
+$width-md: 86%;
+$width-sm: 90%;
+
+/* === TRAANSITIONS === */
+$transition: 0.3s all ease;

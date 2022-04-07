@@ -1,33 +1,26 @@
-/*  TABLE OF CONTENTS
-========================
--- base imports
--- component imports
--- layout imports
--- reset
-========================
-*/
+/* ========================  
+TABLE OF CONTENTS:
+- base imports
+- component imports
+- layout imports
+- reset
+======================== */
 
 /* base imports */
-@use './base/typography';
-@use './layouts/container';
+@use "./base/reset";
+@use "./base/typography";
 
 /* components imports */
 
-/* layout imports */
+@use "./components/about";
+@use "./components/experience";
+@use "./components/service";
+@use "./components/portfolio";
+@use "./components/testimonials";
+@use "./components/contact";
 
-/* reset */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  font-family: "Kumbh Sans", sans-serif;
-}
-body {
-  box-sizing: border-box;
-}
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-}
+/* layout imports */
+@use "./layouts/layout";
+@use "./layouts/header";
+@use "./layouts/nav";
+@use "./layouts/footer";

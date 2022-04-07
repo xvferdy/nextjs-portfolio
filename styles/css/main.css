@@ -1,61 +1,110 @@
-p {
-  font-size: 1.6rem;
-}
-
-/* ====== */
-/* COLORS */
-/* ====== */
-/* ====== */
-/* FONTS */
-/* ====== */
-.page {
-  max-width: 111rem;
-  min-height: calc(100vh - 80px);
-  margin: 0 auto;
-  padding: 9rem 4rem;
-  padding-bottom: 4rem;
-}
-@media only screen and (max-width: 1200px) {
-  .page {
-    padding: 6rem 4rem;
-    padding-bottom: 4rem;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .page {
-    padding: 0;
-    padding-bottom: 12rem;
-  }
-}
-
-/*  TABLE OF CONTENTS
-========================
--- base imports
--- component imports
--- layout imports
--- reset
-========================
-*/
-/* base imports */
-/* components imports */
-/* layout imports */
-/* reset */
+/* === COLORS === */
+/* === FONTS === */
+/* === CONTAINER === */
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
   box-sizing: inherit;
   font-family: "Kumbh Sans", sans-serif;
 }
 
 body {
   box-sizing: border-box;
+  background-color: #1f1f38;
+  background-image: url(../../../public/assets/bg-texture.png);
+  color: #fff;
+  line-height: 1.7;
 }
 
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.about {
+  border: 1px solid #000;
+}
+
+.experience {
+  background-color: pink;
+}
+
+.service {
+  border: 1px solid #000;
+}
+
+.portfolio {
+  border: 1px solid #000;
+}
+
+.testimonials {
+  background-color: pink;
+}
+
+.contact {
+  border: 1px solid #000;
+}
+
+.page {
+  min-height: calc(100vh - 80px);
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 8rem;
+}
+section h2, section h5 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header {
+  border: 1px solid #000;
+  font-size: 1.6rem;
+}
+
+.nav {
+  background-color: pink;
+}
+
+.footer {
+  border: 1px solid #000;
+}
+
+/* ========================  
+TABLE OF CONTENTS:
+- base imports
+- component imports
+- layout imports
+- reset
+======================== */
+/* base imports */
+/* components imports */
+/* layout imports */
 
 /*# sourceMappingURL=main.css.map */

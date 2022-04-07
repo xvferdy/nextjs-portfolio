@@ -1,27 +1,75 @@
+@use "./variables" as *;
+
+/* === RESPONSIVE DESIGN === */
 @mixin display($breakpoint) {
-	@if ($breakpoint == sm-phone) {
-		@media only screen and(max-width: 370px) {
-			@content;
-		}
-	}
-	@if ($breakpoint == phone) {
-		@media only screen and(max-width: 600px) {
-			@content;
-		}
-	}
-	@if ($breakpoint == lg-phone) {
-		@media only screen and(max-width: 800px) {
-			@content;
-		}
-	}
-	@if ($breakpoint == tab-port) {
-		@media only screen and(max-width: 1024px) {
-			@content;
-		}
-	}
-	@if ($breakpoint == tab-land) {
-		@media only screen and(max-width: 1200px) {
-			@content;
-		}
-	}
+  @if ($breakpoint == sm-phone) {
+    @media only screen and(max-width: 370px) {
+      @content;
+    }
+  }
+  // used
+  @if ($breakpoint == phone) {
+    @media only screen and(max-width: 600px) {
+      @content;
+    }
+  }
+  @if ($breakpoint == lg-phone) {
+    @media only screen and(max-width: 800px) {
+      @content;
+    }
+  }
+  // used
+  @if ($breakpoint == tab-port) {
+    @media only screen and(max-width: 1024px) {
+      @content;
+    }
+  }
+  @if ($breakpoint == tab-land) {
+    @media only screen and(max-width: 1200px) {
+      @content;
+    }
+  }
+}
+
+/* === BUTT0N === */
+@mixin btn {
+  width: max-content;
+  display: inline-block;
+  color: $white;
+  padding: 0.75rem 1.2rem;
+  border: 1px solid $primary-color;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover {
+    background-color: $white;
+    color: $background-color;
+    border-color: transparent;
+
+    &--primary {
+      background-color: $primary-color;
+      color: $background-color;
+    }
+  }
+}
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: $white;
+  padding: 0.75rem 1.2rem;
+  border: 1px solid $primary-color;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover {
+    background-color: $white;
+    color: $background-color;
+    border-color: transparent;
+  }
+  &--primary {
+    background-color: $primary-color;
+    color: $background-color;
+  }
 }
