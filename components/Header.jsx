@@ -11,13 +11,13 @@ function Header() {
         <h1>Jhon Bambang</h1>
         <h5 className="text-light">Junior Developer</h5>
         <CTA />
+        <HeaderSocials />
         <div className="me">
           <img src="/assets/me-ori.png" alt="me" />
         </div>
         <a href="#contact" className="scroll-down">
           Scroll Down
         </a>
-        <HeaderSocials />
       </div>
     </header>
   );

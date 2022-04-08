@@ -18,6 +18,7 @@
 - [ ] change google font
 - [ ] rapihkan main.scss
 - [ ] .btn terapkan mixin btn
+- [ ] rename commit at squash merge ex: [WIP]: \<Header /> JSX to [WIP]: `<Header />` JSX
 
 **hard**
 - [ ] implement `@each` sass
@@ -30,6 +31,9 @@
 - [ ] check layout shift (while adjust sreen size and after page refresh)
 - [ ] implement `clamp()`
 - [ ] download pdf https://github.com/vercel/next.js/discussions/25981
+- [ ] remove react-icon dependen with material ui
+- [ ] matrial ui new feature
+- [ ] link social all square/round
 
 ## Timeline
 

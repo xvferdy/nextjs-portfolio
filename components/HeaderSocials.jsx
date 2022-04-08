@@ -1,16 +1,19 @@
 import React from "react";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import { FaSteamSquare } from "react-icons/fa";
 
 function HeaderSocials() {
   return (
     <div className="header__socials">
-      <a href="" target="_blank">
-        linked
+      <a href="https://www.linkedin.com/feed/" target="_blank">
+        <BsLinkedin />
       </a>
-      <a href="" target="_blank">
-        github
+      <a href="https://github.com/xvferdy/" target="_blank">
+        <FaGithub />
       </a>
-      <a href="" target="_blank">
-        ite
+      <a href="https://steamcommunity.com/id/xvferdy/" target="_blank">
+        <FaSteamSquare />
       </a>
     </div>
   );
