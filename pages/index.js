@@ -26,7 +26,7 @@ export default function Home() {
 
       <Header />
       <Nav />
-      <main className="page">
+      <main className="main">
         <About />
         <Experience />
         <Service />

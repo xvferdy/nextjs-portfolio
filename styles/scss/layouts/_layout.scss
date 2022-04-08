@@ -1,14 +1,14 @@
 @use "../abstracts/" as *;
 
-.page {
+.main {
   // max-width: 111rem;
-  min-height: calc(100vh - 80px);
+  // min-height: calc(100vh - 80px);
   // margin: 0 auto;
   // padding: 9rem 4rem;
   // padding-bottom: 4rem;
 
   // display: grid;
-  // gap: 1rem;
+  // gap: 10rem;
 
   @include display(tab-port) {
     // padding: 6rem 4rem;
@@ -24,7 +24,7 @@
   width: $width-lg;
   margin: 0 auto;
 
-  // ============ MEDIA QUERIES ============
+  // MEDIA-QUERIES
   @include display(tab-port) {
     width: $width-md;
   }
@@ -45,7 +45,7 @@ section {
     margin-bottom: 3rem;
   }
 
-  // ============ MEDIA QUERIES ============
+  // MEDIA-QUERIES
   @include display(tab-port) {
     margin-top: 6rem;
   }

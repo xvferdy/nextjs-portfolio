@@ -19,6 +19,9 @@
 - [ ] rapihkan main.scss
 - [ ] .btn terapkan mixin btn
 - [ ] rename commit at squash merge ex: [WIP]: \<Header /> JSX to [WIP]: `<Header />` JSX
+- [ ] move header to conponents scss folder
+- [ ] delete css/main.css
+- [ ] font weight light not aplied()
 
 **hard**
 - [ ] implement `@each` sass
@@ -34,6 +37,7 @@
 - [ ] remove react-icon dependen with material ui
 - [ ] matrial ui new feature
 - [ ] link social all square/round
+- [ ] refacrot `.main` setidaknya pakai grid gap
 
 ## Timeline
 
@@ -46,4 +50,5 @@
 ## Learned
 - `display: inline-block`
 - `width: max-content`
+- `background: linear-gradient($primary-color, transparent)`
 

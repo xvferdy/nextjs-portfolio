@@ -10,8 +10,9 @@ $theme-colors: (
 );
 
 /* === FONTS === */
-// @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;400;700&display=swap");
 $font-weights: (
+  "light": 200,
   "regular": 400,
   "bold": 700,
 );
