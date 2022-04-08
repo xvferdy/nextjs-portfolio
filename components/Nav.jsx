@@ -6,7 +6,7 @@ import { RiServiceLine } from "react-icons/ri";
 function Nav() {
   return (
     <nav className="nav">
-      <a href="#">
+      <a href="#" className="active">
         <AiOutlineHome />
       </a>
       <a href="#about">

@@ -39,6 +39,7 @@
 - [ ] link social all square/round
 - [ ] refacrot `.main` setidaknya pakai grid gap
 - [ ] improve tablet mobile view
+- [ ] `<a />` to `<Link />`
 
 ## Timeline
 
