@@ -42,6 +42,7 @@
 - [ ] improve tablet mobile view
 - [ ] `<a />` to `<Link />`
 - [ ] cek `height` ke `max/min-height`
+- [ ] cek `width` ke `max/min-width`
 - [ ] scroll state nav (react intersection observer)
 - [ ] utils file for maping information
 

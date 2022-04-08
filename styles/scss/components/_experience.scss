@@ -39,4 +39,28 @@
       color: $primary-color;
     }
   }
+
+  // MEDIA-QUERIES
+  @include display(tab-port) {
+    &__container {
+      grid-template-columns: 1fr;
+    }
+    &__container > div {
+      width: 80%;
+      padding: 2rem;
+      margin: 0 auto;
+    }
+    &__content {
+      padding: 1rem;
+    }
+  }
+  @include display(phone) {
+    &__container {
+      gap: 1rem;
+    }
+    &__container > div {
+      width: 100%;
+      padding: 2rem 1rem;
+    }
+  }
 }
