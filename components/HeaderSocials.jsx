@@ -1,7 +1,7 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
-import { FaSteamSquare } from "react-icons/fa";
+import { FaGithub, FaSteamSquare } from "react-icons/fa";
+// import { FaSteamSquare } from "react-icons/fa";
 
 function HeaderSocials() {
   return (

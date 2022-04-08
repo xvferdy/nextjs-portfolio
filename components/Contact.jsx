@@ -1,7 +1,11 @@
 import React from "react";
 
 function Contact() {
-  return <section className="contact">Contact</section>;
+  return (
+    <section id="contact" className="contact">
+      Contact
+    </section>
+  );
 }
 
 export default Contact;

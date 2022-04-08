@@ -38,6 +38,7 @@
 - [ ] matrial ui new feature
 - [ ] link social all square/round
 - [ ] refacrot `.main` setidaknya pakai grid gap
+- [ ] improve tablet mobile view
 
 ## Timeline
 

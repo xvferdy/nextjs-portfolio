@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function About() {
   return (
-    <section className="about container">
+    <section id="about" className="about container">
       <h2>About</h2>
       <button className="btn">clixksss</button>
       <button className="btn btn--primary">primary</button>

@@ -14,4 +14,9 @@
     height: 3rem;
     background-color: $primary-color;
   }
+
+  // MEDIA-QUERIES
+  @include display(phone) {
+    display: none;
+  }
 }
