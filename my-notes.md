@@ -53,4 +53,5 @@
 - `display: inline-block`
 - `width: max-content`
 - `background: linear-gradient($primary-color, transparent)`
+- element > element in SASS?
 

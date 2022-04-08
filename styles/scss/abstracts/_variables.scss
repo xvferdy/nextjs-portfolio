@@ -11,12 +11,15 @@ $theme-colors: (
 
 /* === FONTS === */
 // @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;400;700&display=swap");
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 $font-weights: (
-  "light": 200,
+  "light": 300,
   "regular": 400,
-  "bold": 700,
+  "medium": 500,
+  "semi-bold": 600,
 );
-$primary-font: "Kumbh Sans", sans-serif;
+// $primary-font: "Kumbh Sans", sans-serif;
+$primary-font: "Poppins", sans-serif;
 
 /* === CONTAINERS === */
 $width-lg: 75%;

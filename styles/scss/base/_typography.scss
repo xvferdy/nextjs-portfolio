@@ -11,7 +11,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-weight: map-get($font-weights, regular);
+  font-weight: map-get($font-weights, medium);
 }
 h1 {
   font-size: 2.5rem;
