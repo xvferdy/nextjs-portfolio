@@ -45,7 +45,7 @@
 
 ## Notes
 
-## Bug/bad bahaviour/I'm upset for/not statisfied
+## Bug/bad bahaviour/I'm upset for/not statisfied/
 
 ## Readme
 
@@ -54,4 +54,7 @@
 - `width: max-content`
 - `background: linear-gradient($primary-color, transparent)`
 - element > element in SASS?
+
+## Confused
+- css `aspect-ratio: 1/1`
 
