@@ -22,6 +22,7 @@
 - [ ] move header to conponents scss folder
 - [ ] delete css/main.css
 - [ ] font weight light not aplied()
+- [ ] typo
 
 **hard**
 - [ ] implement `@each` sass
@@ -40,6 +41,9 @@
 - [ ] refacrot `.main` setidaknya pakai grid gap
 - [ ] improve tablet mobile view
 - [ ] `<a />` to `<Link />`
+- [ ] cek `height` ke `max/min-height`
+- [ ] scroll state nav (react intersection observer)
+- [ ] utils file for maping information
 
 ## Timeline
 
