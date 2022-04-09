@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 import Portfolio from "../components/Portfolio";
-import Service from "../components/Service";
+import Services from "../components/Services";
 import Testimonials from "../components/Testimonials";
 
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
       <main className="main">
         <About />
         <Experience />
-        <Service />
+        <Services />
         <Portfolio />
         <Testimonials />
         <Contact />

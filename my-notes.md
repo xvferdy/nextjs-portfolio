@@ -23,6 +23,8 @@
 - [ ] delete css/main.css
 - [ ] font weight light not aplied()
 - [ ] typo
+- [ ] contact me button state
+- [ ] delete service jsx scss
 
 **hard**
 - [ ] implement `@each` sass
@@ -45,18 +47,20 @@
 - [ ] cek `width` ke `max/min-width`
 - [ ] scroll state nav (react intersection observer)
 - [ ] utils file for maping information
+- [ ] tooltip nav
 
 ## Timeline
 
 ## Notes
 
 ## Bug/bad bahaviour/I'm upset for/not statisfied/
+- layout not good when the window get small (desktop)
 
 ## Readme
 
 ## Learned
 - `display: inline-block`
-- `width: max-content`
+- `width: max-content` & `height: fit-content`
 - `background: linear-gradient($primary-color, transparent)`
 - element > element in SASS?
 
