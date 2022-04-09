@@ -1,12 +1,25 @@
 @use "../abstracts/" as *;
 
-.testimonials {
-  &__container {
-    width: 40%;
+// for swiper to work
+.container.testimonials__container {
+  width: 40%;
+  padding-bottom: 4rem;
+  .swiper-pagination-clickable .swiper-pagination-bullet {
+    background-color: $primary-color;
   }
+  // MEDIA-QUERIES
+  @include display(tab-port) {
+    width: 60%;
+  }
+  @include display(phone) {
+    width: $width-sm;
+  }
+}
 
+.testimonials {
   .testimonial {
     background-color: $background-variant-color;
+    min-height: 320px;
     text-align: center;
     padding: 2rem;
     border-radius: 2rem;
@@ -29,15 +42,7 @@
   }
 
   // MEDIA-QUERIES
-  @include display(tab-port) {
-    &__container {
-      width: 60%;
-    }
-  }
   @include display(phone) {
-    &__container {
-      width: $width-sm;
-    }
     .testimonial {
       .client__review {
         width: $width-sm;

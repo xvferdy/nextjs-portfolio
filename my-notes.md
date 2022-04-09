@@ -69,6 +69,7 @@
 - `background: linear-gradient($primary-color, transparent)`
 - element > element in SASS?
 - `user-select: none`
+- swiperjs
 
 ## Confused
 - css `aspect-ratio: 1/1`
