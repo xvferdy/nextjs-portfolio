@@ -48,10 +48,12 @@
 - [ ] scroll state nav (react intersection observer)
 - [ ] utils file for maping information
 - [ ] tooltip nav
+- [ ] check link
 
 ## Timeline
 
 ## Notes
+- work with some image using import utils, best practice
 
 ## Bug/bad bahaviour/I'm upset for/not statisfied/
 - layout not good when the window get small (desktop)
