@@ -74,6 +74,7 @@
 - `user-select: none`
 - swiperjs
 -  `resize: none` in `<textarea />`
+-  ` word-break: break-all` css
 
 ## Confused
 - css `aspect-ratio: 1/1`

@@ -5,9 +5,19 @@
   display: grid;
   grid-template-columns: 30% 58%;
   gap: 12%;
+
+  // MEDIA-QUERIES
+  @include display(tab-land) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  @include display(phone) {
+    width: $width-sm;
+  }
 }
 
 .contact {
+  background-color: aliceblue;
   &__options {
     display: flex;
     flex-direction: column;
@@ -20,6 +30,8 @@
     text-align: center;
     border: 1px solid transparent;
     transition: $transition;
+    cursor: default;
+    word-break: break-all;
     &:hover {
       background-color: transparent;
       border-color: $primary-variant-color;
