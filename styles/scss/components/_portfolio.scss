@@ -1,3 +1,52 @@
-.portfolio{
-  border: 1px solid #000;
+@use "../abstracts/" as *;
+
+.portfolio {
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+
+  &__item {
+    background-color: $background-variant-color;
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: $transition;
+    cursor: default;
+
+    &-image {
+      border-radius: 1.5rem;
+      overflow: hidden;
+    }
+    h3 {
+      margin: 1.2rem 0 2rem;
+      position: relative;
+      z-index: 2;
+      &::before {
+        content: "";
+        opacity: 0;
+        bottom: 0;
+        width: 175px;
+        height: 14px;
+        transform: skew(-10deg, -3deg);
+        background: darken($primary-variant-color, 10%);
+        z-index: -1;
+        position: absolute;
+        transition: 0.3s ease-in-out;
+      }
+    }
+    &-cta {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    &:hover {
+      border-color: $primary-variant-color;
+      background-color: transparent;
+      h3::before {
+        opacity: 1;
+      }
+    }
+  }
 }
