@@ -19,14 +19,29 @@
       margin: 0 auto 1rem;
       border: 0.4rem solid $primary-variant-color;
     }
-    .client__name {
-    }
     .client__review {
       color: $light;
       font-weight: map-get($font-weights, light);
       display: block;
       width: 80%;
       margin: 0.8rem auto 0;
+    }
+  }
+
+  // MEDIA-QUERIES
+  @include display(tab-port) {
+    &__container {
+      width: 60%;
+    }
+  }
+  @include display(phone) {
+    &__container {
+      width: $width-sm;
+    }
+    .testimonial {
+      .client__review {
+        width: $width-sm;
+      }
     }
   }
 }
