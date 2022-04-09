@@ -11,7 +11,7 @@
     background-color: $background-variant-color;
     border-radius: 0 0 2rem 2rem;
     border: 1px solid $primary-color;
-    // height: fit-content;
+    height: fit-content;
     transition: $transition;
     cursor: default;
     &:hover {
@@ -30,8 +30,8 @@
       }
     }
     &__list {
-      // using flex
-      /*  padding: 2rem;
+      // == using flex ==
+      /* padding: 2rem;
       li {
         display: flex;
         gap: 1rem;
@@ -45,7 +45,7 @@
         }
       } */
 
-      // using inline
+      // == using inline ==
       padding: 2rem;
       padding-left: 4rem;
       li {
@@ -63,6 +63,23 @@
           display: inline;
         }
       }
+    }
+  }
+
+  // MEDIA-QUERIES
+  @include display(tab-port) {
+    &__container {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+    .service {
+      height: auto;
+    }
+  }
+  @include display(phone) {
+    &__container {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
     }
   }
 }
