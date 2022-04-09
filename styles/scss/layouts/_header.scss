@@ -1,7 +1,8 @@
 @use "../abstracts/" as *;
 
 .header {
-  height: 100vh;
+  // height: 100vh;
+  min-height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
   &__container {

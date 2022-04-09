@@ -49,4 +49,18 @@
       }
     }
   }
+
+  // MEDIA-QUERIES
+  @include display(tab-port) {
+    &__container {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.2rem;
+    }
+  }
+  @include display(phone) {
+    &__container {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
 }

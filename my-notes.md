@@ -49,6 +49,7 @@
 - [ ] utils file for maping information
 - [ ] tooltip nav
 - [ ] check link
+- [ ] `width:` di .me className="me" dan width lainnya cek
 
 ## Timeline
 
