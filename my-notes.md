@@ -68,6 +68,7 @@
 - `width: max-content` & `height: fit-content`
 - `background: linear-gradient($primary-color, transparent)`
 - element > element in SASS?
+- `user-select: none`
 
 ## Confused
 - css `aspect-ratio: 1/1`

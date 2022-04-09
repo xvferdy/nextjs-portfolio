@@ -1,3 +1,32 @@
-.testimonials{
-  background-color: pink;
+@use "../abstracts/" as *;
+
+.testimonials {
+  &__container {
+    width: 40%;
+  }
+
+  .testimonial {
+    background-color: $background-variant-color;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+    .client__avatar {
+      width: 4rem;
+      aspect-ratio: 1/1;
+      overflow: hidden;
+      border-radius: 50%;
+      margin: 0 auto 1rem;
+      border: 0.4rem solid $primary-variant-color;
+    }
+    .client__name {
+    }
+    .client__review {
+      color: $light;
+      font-weight: map-get($font-weights, light);
+      display: block;
+      width: 80%;
+      margin: 0.8rem auto 0;
+    }
+  }
 }

@@ -9,50 +9,50 @@ function Testimonials() {
         <article className="testimonial">
           <div className="client__avatar">
             <img src="/assets/avatar1-ori.jpg" alt="Avatar" />
-            <h5 className="client__name">Naomi Yahukimo</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-              hic fugiat doloremque, possimus quas obcaecati maiores, non
-              perspiciatis saepe reprehenderit eveniet. Laboriosam voluptatibus
-              hic ex. Beatae fuga maxime odit odio?
-            </small>
           </div>
+          <h5 className="client__name">Naomi Yahukimo</h5>
+          <small className="client__review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, hic
+            fugiat doloremque, possimus quas obcaecati maiores, non perspiciatis
+            saepe reprehenderit eveniet. Laboriosam voluptatibus hic ex. Beatae
+            fuga maxime odit odio?
+          </small>
         </article>
         <article className="testimonial">
           <div className="client__avatar">
             <img src="/assets/avatar1-ori.jpg" alt="Avatar" />
-            <h5 className="client__name">Naomi Yahukimo</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-              hic fugiat doloremque, possimus quas obcaecati maiores, non
-              perspiciatis saepe reprehenderit eveniet. Laboriosam voluptatibus
-              hic ex. Beatae fuga maxime odit odio?
-            </small>
           </div>
+          <h5 className="client__name">Naomi Yahukimo</h5>
+          <small className="client__review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, hic
+            fugiat doloremque, possimus quas obcaecati maiores, non perspiciatis
+            saepe reprehenderit eveniet. Laboriosam voluptatibus hic ex. Beatae
+            fuga maxime odit odio?
+          </small>
         </article>
         <article className="testimonial">
           <div className="client__avatar">
             <img src="/assets/avatar1-ori.jpg" alt="Avatar" />
-            <h5 className="client__name">Naomi Yahukimo</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-              hic fugiat doloremque, possimus quas obcaecati maiores, non
-              perspiciatis saepe reprehenderit eveniet. Laboriosam voluptatibus
-              hic ex. Beatae fuga maxime odit odio?
-            </small>
           </div>
+          <h5 className="client__name">Naomi Yahukimo</h5>
+          <small className="client__review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, hic
+            fugiat doloremque, possimus quas obcaecati maiores, non perspiciatis
+            saepe reprehenderit eveniet. Laboriosam voluptatibus hic ex. Beatae
+            fuga maxime odit odio?
+          </small>
         </article>
         <article className="testimonial">
           <div className="client__avatar">
             <img src="/assets/avatar1-ori.jpg" alt="Avatar" />
-            <h5 className="client__name">Naomi Yahukimo</h5>
-            <small className="client__review">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
-              hic fugiat doloremque, possimus quas obcaecati maiores, non
-              perspiciatis saepe reprehenderit eveniet. Laboriosam voluptatibus
-              hic ex. Beatae fuga maxime odit odio?
-            </small>
           </div>
+          <h5 className="client__name">Naomi Yahukimo</h5>
+          <small className="client__review">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, hic
+            fugiat doloremque, possimus quas obcaecati maiores, non perspiciatis
+            saepe reprehenderit eveniet. Laboriosam voluptatibus hic ex. Beatae
+            fuga maxime odit odio?
+          </small>
         </article>
       </div>
     </section>
