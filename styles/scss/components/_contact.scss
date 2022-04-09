@@ -12,12 +12,11 @@
     gap: 2rem;
   }
   @include display(phone) {
-    width: $width-sm;
+    // width: $width-sm;
   }
 }
 
 .contact {
-  background-color: aliceblue;
   &__options {
     display: flex;
     flex-direction: column;
