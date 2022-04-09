@@ -30,4 +30,13 @@
     background-color: $background-color;
     color: $white;
   }
+
+  // MEDIA-QUERIES
+  @include display(sm-phone) {
+    padding: 0.7rem 1rem;
+    gap: 0.5rem;
+    a {
+      padding: 0.7rem;
+    }
+  }
 }

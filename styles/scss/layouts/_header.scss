@@ -1,8 +1,8 @@
 @use "../abstracts/" as *;
 
 .header {
-  // height: 100vh;
-  min-height: 100vh;
+  height: 100vh;
+  // min-height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
   &__container {
@@ -34,13 +34,24 @@
 
   // MEDIA-QUERIES
   @include display(tab-port) {
-    height: 68vh;
+    // height: 68vh;
+    min-height: 68vh;
   }
   @include display(phone) {
     height: 100vh;
+
     &__container {
       .scroll-down {
         display: none;
+      }
+    }
+  }
+  @include display(sm-phone) {
+    padding-top: 1rem;
+    &__container {
+      .me {
+        width: 17rem;
+        left: calc(50% - 17rem / 2);
       }
     }
   }

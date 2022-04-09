@@ -49,4 +49,9 @@
       }
     }
   }
+  @include display(sm-phone) {
+    .testimonial {
+      min-height: 400px;
+    }
+  }
 }

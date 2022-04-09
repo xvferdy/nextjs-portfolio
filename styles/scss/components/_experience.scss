@@ -63,4 +63,10 @@
       padding: 2rem 1rem;
     }
   }
+  @include display(sm-phone) {
+    &__content {
+      grid-template-columns: 1fr;
+      row-gap: 1.2rem;
+    }
+  }
 }

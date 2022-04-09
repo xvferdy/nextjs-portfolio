@@ -91,12 +91,21 @@
     }
     &__content {
       text-align: center;
+
       .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
       }
       p {
         margin: 1.5rem 0;
+      }
+    }
+  }
+  @include display(sm-phone) {
+    &__content {
+      .about__cards {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
       }
     }
   }

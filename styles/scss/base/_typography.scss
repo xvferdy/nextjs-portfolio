@@ -1,10 +1,11 @@
 @use "../abstracts/" as *;
 
 p {
-  // font-size: 1.6rem;
   font-size: 16px;
-  // line-height: 2.6rem;
-  // font-weight: 400;
+  // MEDIA-QUERIES
+  @include display(sm-phone) {
+    font-size: 14px;
+  }
 }
 
 h1,
@@ -16,6 +17,12 @@ h5 {
 }
 h1 {
   font-size: 2.5rem;
+}
+h3 {
+  // MEDIA-QUERIES
+  @include display(sm-phone) {
+    font-size: 17px;
+  }
 }
 
 .text-light {

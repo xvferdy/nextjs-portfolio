@@ -53,16 +53,33 @@
   }
 
   // MEDIA-QUERIES
-  @include display(tab-port) {
+  @include display(tab-land) {
     &__container {
       grid-template-columns: 1fr 1fr;
+    }
+  }
+  @include display(tab-port) {
+    &__container {
       gap: 1.2rem;
+    }
+  }
+  @include display(lg-phone) {
+    &__container {
+      grid-template-columns: 1fr;
     }
   }
   @include display(phone) {
     &__container {
-      grid-template-columns: 1fr;
       gap: 1rem;
+    }
+  }
+  @include display(sm-phone) {
+    &__item {
+      padding: 1rem;
+      border-radius: 1rem;
+      &-cta {
+        margin-bottom: 0;
+      }
     }
   }
 }

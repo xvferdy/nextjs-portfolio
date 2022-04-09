@@ -7,7 +7,6 @@
       @content;
     }
   }
-  // used
   @if ($breakpoint == phone) {
     @media only screen and(max-width: 600px) {
       @content;
@@ -18,7 +17,6 @@
       @content;
     }
   }
-  // used
   @if ($breakpoint == tab-port) {
     @media only screen and(max-width: 1024px) {
       @content;
@@ -73,5 +71,11 @@
   &--primary {
     background-color: $primary-color;
     color: $background-color;
+  }
+
+  // MEDIA-QUERIES
+  @include display(sm-phone) {
+    font-size: 12px;
+    padding: 0.45rem 0.6rem;
   }
 }

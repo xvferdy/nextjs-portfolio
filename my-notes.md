@@ -52,6 +52,7 @@
 - [ ] `width:` di .me className="me" dan width lainnya cek
 - [ ] modal portfolio img hd on click
 - [ ] portfolio img border style improve
+- [ ] font small mobile devices
 
 ## Timeline
 
