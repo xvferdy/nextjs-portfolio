@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { Navigation, Pagination, Autoplay } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -41,11 +41,16 @@ function Testimonials() {
       <h2>Testimonials</h2>
       <Swiper
         className="container testimonials__container"
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay, Navigation]}
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
         loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        navigation={true}
       >
         {testimonials.map((testimonial, idx) => (
           <SwiperSlide key={idx}>

@@ -25,6 +25,7 @@
 - [ ] typo
 - [ ] contact me button state
 - [ ] delete service jsx scss
+- [ ] css folder delete or update with sass watch
 
 **hard**
 - [ ] implement `@each` sass
