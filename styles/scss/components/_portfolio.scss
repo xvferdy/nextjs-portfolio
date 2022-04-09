@@ -22,12 +22,14 @@
     h3 {
       margin: 1.2rem 0 2rem;
       position: relative;
+      width: max-content;
       z-index: 2;
       &::before {
         content: "";
         opacity: 0;
         bottom: 0;
-        width: 175px;
+        // width: 175px;
+        width: 100%;
         height: 14px;
         transform: skew(-10deg, -3deg);
         background: darken($primary-variant-color, 10%);
