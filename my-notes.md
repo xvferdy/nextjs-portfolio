@@ -75,6 +75,7 @@
 - swiperjs
 -  `resize: none` in `<textarea />`
 -  ` word-break: break-all` css
+-  `e.target.reset()` in form submit, good combo with `useRef()`
 
 ## Confused
 - css `aspect-ratio: 1/1`

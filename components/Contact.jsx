@@ -8,7 +8,7 @@ function Contact({ serviceId, templateId, userId }) {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
+    console.log(form);
     emailjs.sendForm(serviceId, templateId, form.current, userId).then(
       (result) => {
         console.log(result.text);
@@ -17,6 +17,7 @@ function Contact({ serviceId, templateId, userId }) {
         console.log(error.text);
       }
     );
+    e.target.reset();
   };
 
   return (
