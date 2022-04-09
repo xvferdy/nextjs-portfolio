@@ -62,6 +62,7 @@
 
 ## Bug/bad bahaviour/I'm upset for/not statisfied/
 - layout not good when the window get small (desktop)
+- accesbility is not so good
 
 ## Readme
 
@@ -72,6 +73,7 @@
 - element > element in SASS?
 - `user-select: none`
 - swiperjs
+-  `resize: none` in `<textarea />`
 
 ## Confused
 - css `aspect-ratio: 1/1`
