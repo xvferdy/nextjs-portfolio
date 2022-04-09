@@ -11,7 +11,7 @@ import Portfolio from "../components/Portfolio";
 import Services from "../components/Services";
 import Testimonials from "../components/Testimonials";
 
-export default function Home() {
+export default function Home({ myData }) {
   return (
     <>
       <Head>
@@ -33,9 +33,22 @@ export default function Home() {
         <Services />
         <Portfolio />
         <Testimonials />
-        <Contact />
+        <Contact {...myData} />
       </main>
       <Footer />
     </>
   );
 }
+
+export const getStaticProps = async (ctx) => {
+  const myData = {
+    serviceId: process.env.SERVICE_ID,
+    templateId: process.env.TEMPLATE_ID,
+    userId: process.env.USER_ID,
+  };
+  return {
+    props: {
+      myData: myData,
+    },
+  };
+};
