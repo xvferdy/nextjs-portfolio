@@ -10,7 +10,7 @@ function Header() {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Jhon Bambang</h1>
-        <h5 className="text-light">Junior Developer</h5>
+        <h5 className="text-light">Newbie Web Developer</h5>
         <CTA />
         <HeaderSocials />
         <div className="me">

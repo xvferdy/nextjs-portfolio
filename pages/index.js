@@ -22,7 +22,7 @@ export default function Home({ myData }) {
           content="Hello there this is my 4th portfolio that I create after not been coding for a while"
         />
         <meta name="author" content="Berlianto Ferdynand Pongbubun" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon2.ico" />
       </Head>
 
       <Header />
