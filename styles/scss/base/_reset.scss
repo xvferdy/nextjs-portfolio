@@ -22,6 +22,7 @@ body {
   box-sizing: border-box;
   background-color: $background-color;
   background-image: url(../../../public/assets/bg-texture.png);
+  // background-image: url(../../public/assets/bg-texture.png); // css
   color: $white;
   line-height: 1.7;
 }
@@ -29,8 +30,7 @@ body {
 html {
   // font-size: 62.5%;
   scroll-behavior: smooth;
-  // scrollbar-width: none;
-  // scrollbar-width: thin;
+  scrollbar-width: none;
 }
 
 ::-webkit-scrollbar {

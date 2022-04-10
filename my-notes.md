@@ -24,7 +24,7 @@
 - [ ] link social all square/round
 - [ ] change some content html literal
 - [ ] contact nav change portfolio
-- [ ] 
+- [ ] png drop shadow
 - [ ] contact me button state
 
 **hard**
