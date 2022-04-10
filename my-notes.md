@@ -18,26 +18,27 @@
 - [ ] .btn terapkan mixin btn
 - [x] font weight light not aplied()
 - [ ] typo
-- [ ] contact me button state
 - [x] delete service jsx scss
 - [ ] css folder delete or update with sass watch
 - [x] font small mobile devices
 - [ ] link social all square/round
 - [ ] change some content html literal
 - [ ] contact nav change portfolio
+- [ ] 
+- [ ] contact me button state
 
 **hard**
+- [ ] change `<img />` to `<Image />`
 - [ ] implement `@each` sass
 - [ ] px to rem, google rem to px generqator
 - [ ] implement %custom-placeholder
-- [ ] change `<img />` to `<Image />`
 - [ ] html semantic
 - [ ] footer improve
 - [ ] check layout shift (while adjust sreen size and after page refresh)
 - [ ] implement `clamp()`
-- [ ] download pdf https://github.com/vercel/next.js/discussions/25981
+- [x] download pdf https://github.com/vercel/next.js/discussions/25981
 - [ ] remove react-icon dependen with material ui
-- [ ] matrial ui new feature
+- [ ] matrial ui new feature, ux alert after send msg
 - [ ] refacrot `.main` setidaknya pakai grid gap
 - [x] improve tablet mobile view
 - [ ] `<a />` to `<Link />`
@@ -51,6 +52,7 @@
 - [ ] modal portfolio img hd on click
 - [ ] portfolio img border style improve
 - [ ] glow nav, backdrop https://www.youtube.com/watch?v=oy8dSsK57Ps
+- [ ] btn github and link icon
 
 ## Timeline
 
