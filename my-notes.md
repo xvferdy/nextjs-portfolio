@@ -3,46 +3,44 @@
 ## Todos
 **easy**
 - [ ] sass url img
-- [ ] web title
+- [x] web title
+- [ ] favicon
 - [ ] color naming
 - [ ] delete unused file (like this one)
 - [ ] delete unused code (import, ect)
-- [ ] semantic html
 - [ ] typo html content
 - [ ] check chrome
-- [ ] hero p line height
-- [ ] footer logo margin
-- [ ] new commit from: .eslint, .gitignore, readme, next.config
+- [x] hero p line height
 - [ ] check & see html inspector
 - [ ] check f12 console
 - [ ] change google font
-- [ ] rapihkan main.scss
+- [x] rapihkan main.scss
 - [ ] .btn terapkan mixin btn
-- [ ] rename commit at squash merge ex: [WIP]: \<Header /> JSX to [WIP]: `<Header />` JSX
-- [ ] move header to conponents scss folder
-- [ ] delete css/main.css
-- [ ] font weight light not aplied()
+- [x] font weight light not aplied()
 - [ ] typo
-- [ ] contact me button state
-- [ ] delete service jsx scss
+- [x] delete service jsx scss
 - [ ] css folder delete or update with sass watch
+- [x] font small mobile devices
+- [ ] link social all square/round
+- [ ] change some content html literal
+- [ ] contact nav change portfolio
+- [ ] png drop shadow
+- [ ] contact me button state
 
 **hard**
+- [ ] change `<img />` to `<Image />`
 - [ ] implement `@each` sass
 - [ ] px to rem, google rem to px generqator
 - [ ] implement %custom-placeholder
-- [ ] change `<img />` to `<Image />`
 - [ ] html semantic
-- [ ] footer
-- [ ] layout jsx folder (only footer but it's ok)
+- [ ] footer improve
 - [ ] check layout shift (while adjust sreen size and after page refresh)
 - [ ] implement `clamp()`
-- [ ] download pdf https://github.com/vercel/next.js/discussions/25981
+- [x] download pdf https://github.com/vercel/next.js/discussions/25981
 - [ ] remove react-icon dependen with material ui
-- [ ] matrial ui new feature
-- [ ] link social all square/round
+- [ ] matrial ui new feature, ux alert after send msg
 - [ ] refacrot `.main` setidaknya pakai grid gap
-- [ ] improve tablet mobile view
+- [x] improve tablet mobile view
 - [ ] `<a />` to `<Link />`
 - [ ] cek `height` ke `max/min-height`
 - [ ] cek `width` ke `max/min-width`
@@ -53,7 +51,8 @@
 - [ ] `width:` di .me className="me" dan width lainnya cek
 - [ ] modal portfolio img hd on click
 - [ ] portfolio img border style improve
-- [ ] font small mobile devices
+- [ ] glow nav, backdrop https://www.youtube.com/watch?v=oy8dSsK57Ps
+- [ ] btn github and link icon
 
 ## Timeline
 

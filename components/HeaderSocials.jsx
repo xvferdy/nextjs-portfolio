@@ -2,19 +2,23 @@ import React from "react";
 
 // react-icons
 import { BsLinkedin } from "react-icons/bs";
-import { FaGithub, FaSteamSquare } from "react-icons/fa";
+import { SiFrontendmentor } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 function HeaderSocials() {
   return (
     <div className="header__socials">
-      <a href="https://www.linkedin.com/feed/" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/berlianto-ferdy-770a79226/"
+        target="_blank"
+      >
         <BsLinkedin />
       </a>
       <a href="https://github.com/xvferdy/" target="_blank">
         <FaGithub />
       </a>
-      <a href="https://steamcommunity.com/id/xvferdy/" target="_blank">
-        <FaSteamSquare />
+      <a href="https://www.frontendmentor.io/profile/xvferdy" target="_blank">
+        <SiFrontendmentor />
       </a>
     </div>
   );
