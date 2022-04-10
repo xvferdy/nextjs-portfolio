@@ -17,42 +17,42 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
-              <div>
-                <h4>CSS</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
+                <h4>Sass</h4>
+                <small className="text-light">Junior</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
                 <h4>Javascript</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                <h4>React JS</h4>
+                <small className="text-light">Junior</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Tailwind</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Material-UI</h4>
+                <small className="text-light">Junior</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>React</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Next JS</h4>
+                <small className="text-light">Newbie</small>
               </div>
             </article>
           </div>
@@ -66,35 +66,35 @@ function Experience() {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Node JS</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Junior</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Express</h4>
-                <small className="text-light">Intermediate</small>
+                <h4>Express JS</h4>
+                <small className="text-light">Junior</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>MongoDb</h4>
-                <small className="text-light">Experienced</small>
+                <h4>MongoDB</h4>
+                <small className="text-light">Newbie</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>MySql</h4>
-                <small className="text-light">Basic</small>
+                <h4>MySQL</h4>
+                <small className="text-light">Newbie</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Python</h4>
-                <small className="text-light">Basic</small>
+                <h4>PHP</h4>
+                <small className="text-light">Newbie</small>
               </div>
             </article>
           </div>
