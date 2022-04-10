@@ -52,4 +52,15 @@
     margin-bottom: 4rem;
     color: $background-color;
   }
+
+  // MEDIA-QUERIES
+  @include display(phone) {
+    .permalinks {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    &__socials {
+      margin-bottom: 2.6rem;
+    }
+  }
 }
