@@ -12,8 +12,10 @@
   list-style: none;
   text-decoration: none;
   box-sizing: inherit;
-  // font-family: "Kumbh Sans", sans-serif;
   font-family: $primary-font;
+
+  // border: 1px solid gray;
+  // overflow-x: hidden;
 }
 
 body {
@@ -28,6 +30,7 @@ html {
   // font-size: 62.5%;
   scroll-behavior: smooth;
   // scrollbar-width: none;
+  // scrollbar-width: thin;
 }
 
 ::-webkit-scrollbar {

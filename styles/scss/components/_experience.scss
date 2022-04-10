@@ -1,3 +1,72 @@
-.experience{
-  background-color: pink;
+@use "../abstracts/" as *;
+
+.experience {
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  &__container > div {
+    background-color: $background-variant-color;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: $transition;
+    &:hover {
+      background-color: transparent;
+      border-color: $primary-color;
+      cursor: default;
+    }
+    h3 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: $primary-color;
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
+
+  &__details {
+    display: flex;
+    gap: 1rem;
+    &-icon {
+      margin-top: 6px;
+      color: $primary-color;
+    }
+  }
+
+  // MEDIA-QUERIES
+  @include display(tab-port) {
+    &__container {
+      grid-template-columns: 1fr;
+    }
+    &__container > div {
+      width: 80%;
+      padding: 2rem;
+      margin: 0 auto;
+    }
+    &__content {
+      padding: 1rem;
+    }
+  }
+  @include display(phone) {
+    &__container {
+      gap: 1rem;
+    }
+    &__container > div {
+      width: 100%;
+      padding: 2rem 1rem;
+    }
+  }
+  @include display(sm-phone) {
+    &__content {
+      grid-template-columns: 1fr;
+      row-gap: 1.2rem;
+    }
+  }
 }

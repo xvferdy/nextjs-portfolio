@@ -3,7 +3,6 @@ TABLE OF CONTENTS:
 - base imports
 - component imports
 - layout imports
-- reset
 ======================== */
 
 /* base imports */
@@ -11,13 +10,15 @@ TABLE OF CONTENTS:
 @use "./base/typography";
 
 /* components imports */
-
 @use "./components/about";
 @use "./components/experience";
-@use "./components/service";
+@use "./components/services";
 @use "./components/portfolio";
 @use "./components/testimonials";
 @use "./components/contact";
+
+@use "./components/cta";
+@use "./components/header-socials";
 
 /* layout imports */
 @use "./layouts/layout";
