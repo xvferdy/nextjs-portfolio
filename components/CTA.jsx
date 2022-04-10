@@ -4,13 +4,12 @@ import React from "react";
 function CTA() {
   return (
     <div className="cta">
-      {/* <a href={CV} download target="_blank">
-        Download CV
-      </a> */}
-      {/* <a href="/assets/cv-berlianto.pdf" download target="_blank">
-        Download CV
-      </a> */}
-      <a className="btn" href="" download target="_blank">
+      <a
+        className="btn"
+        href="/assets/cv-berlianto.pdf"
+        download
+        target="_blank"
+      >
         Download CV
       </a>
       <a className="btn btn--primary" href="#contact">

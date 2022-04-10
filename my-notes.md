@@ -50,6 +50,7 @@
 - [ ] `width:` di .me className="me" dan width lainnya cek
 - [ ] modal portfolio img hd on click
 - [ ] portfolio img border style improve
+- [ ] glow nav, backdrop https://www.youtube.com/watch?v=oy8dSsK57Ps
 
 ## Timeline
 
