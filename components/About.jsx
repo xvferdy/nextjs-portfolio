@@ -1,7 +1,6 @@
 import React from "react";
-import me from "../public/assets/me-ori.png";
-import Image from "next/image";
 
+// react-icons
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";

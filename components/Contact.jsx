@@ -1,8 +1,12 @@
 import React, { useRef } from "react";
+
+// emailjs
+import emailjs from "emailjs-com";
+
+// react-icons
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
-import emailjs from "emailjs-com";
 
 function Contact({ serviceId, templateId, userId }) {
   const form = useRef();

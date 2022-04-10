@@ -15,19 +15,19 @@ function Service() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Pariatur pariatur deserunt aliqua minim aliqua.</p>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Pariatur pariatur deserunt aliqua minim aliqua.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Pariatur pariatur deserunt aliqua minim aliqua.</p>
+              <p>Sit amet consectetur adipisicing elit. Ea, velit!</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Pariatur pariatur deserunt aliqua minim aliqua.</p>
+              <p>Lorem ipsum dolor sit.</p>
             </li>
           </ul>
         </article>
@@ -40,19 +40,19 @@ function Service() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Pariatur pariatur deserunt aliqua minim aliqua.</p>
+              <p>Sit amet consectetur adipisicing elit. Ea, velit!</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Pariatur pariatur deserunt aliqua minim aliqua.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Pariatur pariatur deserunt aliqua minim aliqua.</p>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Pariatur pariatur deserunt aliqua minim aliqua.</p>
+              <p>Lorem ipsum dolor sit.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -69,7 +69,7 @@ function Service() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Pariatur pariatur deserunt aliqua minim aliqua.</p>
+              <p>Lorem ipsum dolor sit.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -77,7 +77,7 @@ function Service() {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Pariatur pariatur deserunt aliqua minim aliqua.</p>
+              <p>Lorem ipsum dolor sit amet.</p>
             </li>
           </ul>
         </article>

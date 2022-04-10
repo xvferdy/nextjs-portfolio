@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
 
+// components
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Experience from "../components/Experience";

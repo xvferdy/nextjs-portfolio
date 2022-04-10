@@ -23,12 +23,12 @@
     font-size: 1.1rem;
     &:hover {
       color: $white;
-      background-color: rgba(0, 0, 0, 0.3);
+      background-color: $primary-variant-color;
     }
   }
   .active {
-    background-color: $background-color;
-    color: $white;
+    background-color: $primary-color;
+    color: $background-color;
   }
 
   // MEDIA-QUERIES

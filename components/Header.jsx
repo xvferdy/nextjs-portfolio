@@ -1,7 +1,8 @@
 import React from "react";
+
+// components
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
-// import me from "../public/assets/me-ori.png";
 
 function Header() {
   return (
