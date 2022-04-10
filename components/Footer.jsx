@@ -47,7 +47,7 @@ function Footer() {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; WGATOR Tutorials. All rights reserved.</small>
+        <small>&copy; EGATOR Tutorials. All rights reserved.</small>
       </div>
     </footer>
   );
