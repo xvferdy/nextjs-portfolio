@@ -12,7 +12,7 @@
     gap: 2rem;
   }
   @include display(phone) {
-    // width: $width-sm;
+    width: $width-sm;
   }
 }
 
