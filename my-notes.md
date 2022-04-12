@@ -27,6 +27,9 @@
 - [ ] png drop shadow
 - [ ] contact me button state
 - [ ] hapus html di experience g
+- [ ] testimonials file chang name to quote
+- [ ] quote img js text js, omg react text react, img programmermeme text meme
+- [ ] check z-index chrome
 
 **hard**
 - [ ] change `<img />` to `<Image />`
@@ -61,9 +64,10 @@
 ## Notes
 - work with some image using import utils, best practice
 
-## Bug/bad bahaviour/I'm upset for/not statisfied/
+## Bug/bad bahaviour/I'm upset for/not statisfied/cantfix
 - layout not good when the window get small (desktop)
 - accesbility is not so good
+- mobile nav bad state classname / style
 
 ## Readme
 

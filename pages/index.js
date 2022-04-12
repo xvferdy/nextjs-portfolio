@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef } from "react";
 import Head from "next/head";
 
 // components
@@ -12,7 +12,15 @@ import Portfolio from "../components/Portfolio";
 import Services from "../components/Services";
 import Testimonials from "../components/Testimonials";
 
+import { useInView } from "react-intersection-observer";
+
 export default function Home({ myData }) {
+  const { ref: headerRef, inView: headerActive } = useInView();
+  const { ref: aboutRef, inView: aboutActive } = useInView();
+  const { ref: experienceRef, inView: experienceActive } = useInView();
+  const { ref: servicesRef, inView: serviceActive } = useInView();
+  const { ref: contactRef, inView: contactActive } = useInView();
+
   return (
     <>
       <Head>
@@ -26,15 +34,21 @@ export default function Home({ myData }) {
         <link rel="icon" href="/favicon2.ico" />
       </Head>
 
-      <Header />
-      <Nav />
+      <Header headerRef={headerRef} />
+      <Nav
+        aboutActive={aboutActive}
+        experienceActive={experienceActive}
+        headerActive={headerActive}
+        serviceActive={serviceActive}
+        contactActive={contactActive}
+      />
       <main className="main">
-        <About />
-        <Experience />
-        <Services />
+        <About aboutRef={aboutRef} />
+        <Experience experienceRef={experienceRef} />
+        <Services servicesRef={servicesRef} />
         <Portfolio />
         <Testimonials />
-        <Contact {...myData} />
+        <Contact {...myData} contactRef={contactRef} />
       </main>
       <Footer />
     </>

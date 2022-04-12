@@ -1,12 +1,12 @@
 import React from "react";
 import { BiCheck } from "react-icons/bi";
 
-function Service() {
+function Service({ servicesRef }) {
   return (
     <section id="services" className="services">
       <h5>What I Over</h5>
       <h2>Services</h2>
-      <div className="container services__container">
+      <div ref={servicesRef} className="container services__container">
         {/* UI/UX */}
         <article className="service">
           <div className="service__head">

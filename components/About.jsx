@@ -5,10 +5,10 @@ import { FaAward } from "react-icons/fa";
 import { GoTasklist } from "react-icons/go";
 import { BsHeadset } from "react-icons/bs";
 
-function About() {
+function About({ aboutRef }) {
   return (
     <section id="about" className="about">
-      <h5>Get To Know</h5>
+      <h5 ref={aboutRef}>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">

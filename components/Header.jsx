@@ -5,11 +5,11 @@ import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
 import { MdOutlineWavingHand } from "react-icons/md";
 
-function Header() {
+function Header({ headerRef }) {
   return (
     <header className="header">
       <div className="container header__container">
-        <h5>
+        <h5 ref={headerRef}>
           Hello I'm <MdOutlineWavingHand />
         </h5>
         <h1>Berlianto F. P.</h1>

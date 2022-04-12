@@ -8,7 +8,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 
-function Contact({ serviceId, templateId, userId }) {
+function Contact({ serviceId, templateId, userId, contactRef }) {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -26,7 +26,7 @@ function Contact({ serviceId, templateId, userId }) {
 
   return (
     <section id="contact" className="contact">
-      <h5>Get In Touch</h5>
+      <h5 ref={contactRef}>Get In Touch</h5>
       <h2>Contact Me</h2>
 
       <div className="container contact__container">

@@ -3,10 +3,10 @@ import React from "react";
 // react-icons
 import { BsPatchCheckFill } from "react-icons/bs";
 
-function Experience() {
+function Experience({ experienceRef }) {
   return (
     <section id="experience" className=" experience">
-      <h5>What Skills I Have</h5>
+      <h5 ref={experienceRef}>What Skills I Have</h5>
       <h2>My Experience</h2>
       <div className="container experience__container">
         {/* Frontend Development */}
