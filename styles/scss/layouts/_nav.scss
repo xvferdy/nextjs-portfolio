@@ -30,6 +30,7 @@
     background-color: $primary-color;
     color: $background-color;
   }
+  animation: nav 1s ease-in-out;
 
   // MEDIA-QUERIES
   @include display(sm-phone) {
@@ -38,5 +39,14 @@
     a {
       padding: 0.7rem;
     }
+  }
+}
+
+@keyframes nav {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

@@ -26,6 +26,7 @@
 - [ ] contact nav change portfolio
 - [ ] png drop shadow
 - [ ] contact me button state
+- [ ] hapus html di experience g
 
 **hard**
 - [ ] change `<img />` to `<Image />`
@@ -53,6 +54,7 @@
 - [ ] portfolio img border style improve
 - [ ] glow nav, backdrop https://www.youtube.com/watch?v=oy8dSsK57Ps
 - [ ] btn github and link icon
+- [ ] performance > 1s load time? 
 
 ## Timeline
 

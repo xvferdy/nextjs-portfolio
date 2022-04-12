@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import Head from "next/head";
 
 // components
@@ -19,7 +20,7 @@ export default function Home({ myData }) {
         <meta name="keyword" content="Portfolio, resume" />
         <meta
           name="description"
-          content="Hello there this is my 4th portfolio that I create after not been coding for a while"
+          content="Hello there, this is my 4th portfolio that I create after not been coding for a while"
         />
         <meta name="author" content="Berlianto Ferdynand Pongbubun" />
         <link rel="icon" href="/favicon2.ico" />
