@@ -17,6 +17,10 @@ h5 {
 }
 h1 {
   font-size: 2.5rem;
+  background: linear-gradient(180deg, $primary-color, rgba(29, 25, 25, 0) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h3 {
   // MEDIA-QUERIES
@@ -34,5 +38,7 @@ a {
   transition: $transition;
   &:hover {
     color: $white;
+    text-shadow: 0px 0px 6px $light;
+    filter: drop-shadow(0 0 5px $primary-color);
   }
 }

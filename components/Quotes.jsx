@@ -31,7 +31,7 @@ function Quotes() {
     {
       avatar: "/assets/avatar-4.jpg",
       name: "Dave",
-      review: "Programming is not stressful at all. Zucy - 24 years old",
+      review: "Programming is not stressful at all. Dave - 24 years old",
     },
   ];
 
@@ -47,7 +47,7 @@ function Quotes() {
         pagination={{ clickable: true }}
         loop={true}
         autoplay={{
-          delay: 2500,
+          delay: 4500,
           disableOnInteraction: false,
         }}
         navigation={true}

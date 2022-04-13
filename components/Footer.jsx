@@ -5,6 +5,10 @@ import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
 
+import { BsLinkedin } from "react-icons/bs";
+import { SiFrontendmentor } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
+
 function Footer() {
   return (
     <footer className="footer">
@@ -36,19 +40,22 @@ function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a href="google.com">
-          <FaFacebookF />
+        <a
+          href="https://www.linkedin.com/in/berlianto-ferdy-770a79226/"
+          target="_blank"
+        >
+          <BsLinkedin />
         </a>
-        <a href="google.com">
-          <FiInstagram />
+        <a href="https://github.com/xvferdy/" target="_blank">
+          <FaGithub />
         </a>
-        <a href="google.com">
-          <IoLogoTwitter />
+        <a href="https://www.frontendmentor.io/profile/xvferdy" target="_blank">
+          <SiFrontendmentor />
         </a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; EGATOR Tutorials. All rights reserved.</small>
+        <small>&copy; 2022 All rights reserved.</small>
       </div>
     </footer>
   );
