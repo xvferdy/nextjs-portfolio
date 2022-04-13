@@ -25,6 +25,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
 ::-webkit-scrollbar {
@@ -357,7 +358,7 @@ a:hover {
   margin: 1.2rem 0 2rem;
   position: relative;
   width: fit-content;
-  z-index: 2;
+  z-index: 3;
 }
 .portfolio__item h3::before {
   content: "";
@@ -413,25 +414,25 @@ a:hover {
   }
 }
 
-.container.testimonials__container {
+.container.quotes__container {
   width: 40%;
   padding-bottom: 4rem;
 }
-.container.testimonials__container .swiper-pagination-clickable .swiper-pagination-bullet {
+.container.quotes__container .swiper-pagination-clickable .swiper-pagination-bullet {
   background-color: #4db5ff;
 }
 @media only screen and (max-width: 1024px) {
-  .container.testimonials__container {
+  .container.quotes__container {
     width: 60%;
   }
 }
 @media only screen and (max-width: 600px) {
-  .container.testimonials__container {
+  .container.quotes__container {
     width: 90%;
   }
 }
 
-.testimonials .testimonial {
+.quotes .quote {
   background-color: #2c2c6c;
   min-height: 320px;
   text-align: center;
@@ -439,7 +440,7 @@ a:hover {
   border-radius: 2rem;
   user-select: none;
 }
-.testimonials .testimonial .client__avatar {
+.quotes .quote .client__avatar {
   width: 4rem;
   aspect-ratio: 1/1;
   overflow: hidden;
@@ -447,7 +448,7 @@ a:hover {
   margin: 0 auto 1rem;
   border: 0.4rem solid rgba(77, 181, 255, 0.4);
 }
-.testimonials .testimonial .client__review {
+.quotes .quote .client__review {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 300;
   display: block;
@@ -455,12 +456,12 @@ a:hover {
   margin: 0.8rem auto 0;
 }
 @media only screen and (max-width: 600px) {
-  .testimonials .testimonial .client__review {
+  .quotes .quotes .client__review {
     width: 90%;
   }
 }
 @media only screen and (max-width: 370px) {
-  .testimonials .testimonial {
+  .quotes .quotes {
     min-height: 400px;
   }
 }
@@ -654,7 +655,7 @@ section > h2 {
   width: max-content;
   display: block;
   padding: 0.7rem 1.7rem;
-  z-index: 2;
+  z-index: 5;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
@@ -663,6 +664,7 @@ section > h2 {
   gap: 0.8rem;
   border-radius: 3rem;
   backdrop-filter: blur(15px);
+  animation: nav 1s ease-in-out;
 }
 .nav a {
   background: transparent;
@@ -690,6 +692,14 @@ section > h2 {
   }
 }
 
+@keyframes nav {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .footer {
   background-color: #4db5ff;
   padding: 3rem 0;

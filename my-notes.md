@@ -27,12 +27,12 @@
 - [ ] png drop shadow
 - [ ] contact me button state
 - [ ] hapus html di experience g
-- [ ] testimonials file chang name to quote
 - [ ] quote img js text js, omg react text react, img programmermeme text meme
 - [ ] check z-index chrome
 
 **hard**
 - [ ] change `<img />` to `<Image />`
+- [ ] `<a />` to `<Link />`
 - [ ] implement `@each` sass
 - [ ] px to rem, google rem to px generqator
 - [ ] implement %custom-placeholder
@@ -45,7 +45,6 @@
 - [ ] matrial ui new feature, ux alert after send msg
 - [ ] refacrot `.main` setidaknya pakai grid gap
 - [x] improve tablet mobile view
-- [ ] `<a />` to `<Link />`
 - [ ] cek `height` ke `max/min-height`
 - [ ] cek `width` ke `max/min-width`
 - [ ] scroll state nav (react intersection observer)

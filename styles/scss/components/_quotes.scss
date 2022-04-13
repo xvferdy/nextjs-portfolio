@@ -1,7 +1,7 @@
 @use "../abstracts/" as *;
 
 // for swiper to work
-.container.testimonials__container {
+.container.quotes__container {
   width: 40%;
   padding-bottom: 4rem;
   .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -16,8 +16,8 @@
   }
 }
 
-.testimonials {
-  .testimonial {
+.quotes {
+  .quote {
     background-color: $background-variant-color;
     min-height: 320px;
     text-align: center;
@@ -43,14 +43,14 @@
 
   // MEDIA-QUERIES
   @include display(phone) {
-    .testimonial {
+    .quotes {
       .client__review {
         width: $width-sm;
       }
     }
   }
   @include display(sm-phone) {
-    .testimonial {
+    .quotes {
       min-height: 400px;
     }
   }

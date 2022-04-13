@@ -10,7 +10,7 @@ import Header from "../components/Header";
 import Nav from "../components/Nav";
 import Portfolio from "../components/Portfolio";
 import Services from "../components/Services";
-import Testimonials from "../components/Testimonials";
+import Quotes from "../components/Quotes";
 
 import { useInView } from "react-intersection-observer";
 
@@ -47,7 +47,7 @@ export default function Home({ myData }) {
         <Experience experienceRef={experienceRef} />
         <Services servicesRef={servicesRef} />
         <Portfolio />
-        <Testimonials />
+        <Quotes />
         <Contact {...myData} contactRef={contactRef} />
       </main>
       <Footer />
