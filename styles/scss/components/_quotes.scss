@@ -43,15 +43,15 @@
 
   // MEDIA-QUERIES
   @include display(phone) {
-    .quotes {
+    .quote {
       .client__review {
         width: $width-sm;
       }
     }
   }
   @include display(sm-phone) {
-    .quotes {
-      min-height: 400px;
+    .quote {
+      min-height: 350px;
     }
   }
 }

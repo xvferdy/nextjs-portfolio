@@ -41,7 +41,7 @@ function Footer() {
 
       <div className="footer__socials">
         <a
-          href="https://www.linkedin.com/in/berlianto-ferdy-770a79226/"
+          href="https://www.linkedin.com/in/berlianto-ferdynand-pongbubun/"
           target="_blank"
         >
           <BsLinkedin />

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 // react-icons
 import { FaAward } from "react-icons/fa";
@@ -14,8 +15,13 @@ function About({ aboutRef }) {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src="/assets/me-about.png" alt="Photo of Berlianto" />
-            {/* <img src="/assets/me-about-ori.jpg" alt="Photo of Berlianto" /> */}
+            {/* <img src="/assets/me-about.png" alt="Photo of Berlianto" /> */}
+            <Image
+              src="/assets/me-about.png"
+              width={457}
+              height={535}
+              alt="Photo of Berlianto"
+            />
           </div>
         </div>
 

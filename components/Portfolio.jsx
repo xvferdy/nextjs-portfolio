@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Portfolio({ portfolioRef }) {
   const projects = [
@@ -54,7 +55,14 @@ function Portfolio({ portfolioRef }) {
         {projects.map((project) => (
           <article key={project.id} className="portfolio__item">
             <div className="portfolio__item-image" title={project.title}>
-              <img src={project.image} alt={project.title} />
+              {/* <img src={project.image} alt={project.title} /> */}
+              <Image
+                src={project.image}
+                alt={project.title}
+                width={644}
+                height={483}
+                layout="responsive"
+              />
             </div>
             <h3>{project.title}</h3>
             <div className="portfolio__item-cta">

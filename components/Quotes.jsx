@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 // swiperjs
 import { Navigation, Pagination, Autoplay } from "swiper";
@@ -56,7 +57,13 @@ function Quotes() {
           <SwiperSlide key={idx}>
             <article className="quote">
               <div className="client__avatar">
-                <img src={quote.avatar} alt={quote.name} />
+                {/* <img src={quote.avatar} alt={quote.name} /> */}
+                <Image
+                  src={quote.avatar}
+                  alt={quote.name}
+                  width={70}
+                  height={70}
+                />
               </div>
               <h5 className="client__name">{quote.name}</h5>
               <small className="client__review">{quote.review}</small>

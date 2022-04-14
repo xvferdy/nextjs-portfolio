@@ -29,7 +29,7 @@
   .active {
     background-color: $primary-color;
     color: $background-color;
-    filter: drop-shadow(0 0 5px #ffee10);
+    filter: drop-shadow(0 0 5px $gold);
   }
   animation: nav 1s ease-in-out;
 
