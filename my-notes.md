@@ -37,16 +37,16 @@
 - [x] glow nav, backdrop https://www.youtube.com/watch?v=oy8dSsK57Ps
 - [x] `width:` di .me className="me" dan width lainnya cek
 - [x] change `<img />` to `<Image />`
-- [ ] `<a />` to `<Link />`
+- [x] `<a />` to `<Link />`
+- [x] cek `width` ke `max/min-width`
 - [ ] check layout shift (while adjust sreen size and after page refresh)
-- [ ] refacrot `.main` setidaknya pakai grid gap
-- [ ] cek `width` ke `max/min-width`
 - [ ] check performance > 1s load time? 
 - [ ] modal portfolio img hd on click (hover like nft, isinya exitbtn desc picture hd)
-- [ ] implement `@each` sass
-- [ ] .btn terapkan mixin btn, tulis di layout
 
 **Optional**
+- [ ] implement `@each` sass
+- [ ] .btn terapkan mixin btn, tulis di layout
+- [ ] refacrot `.main` setidaknya pakai grid gap
 - [ ] remove react-icon dependen with material ui
 - [ ] matrial ui new feature, ux alert after send msg
 - [ ] footer improve

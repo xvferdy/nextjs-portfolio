@@ -2,10 +2,6 @@ import React from "react";
 import Link from "next/link";
 
 // react-icons
-import { FaFacebookF } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
-import { IoLogoTwitter } from "react-icons/io";
-
 import { BsLinkedin } from "react-icons/bs";
 import { SiFrontendmentor } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";

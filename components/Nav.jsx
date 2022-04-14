@@ -1,13 +1,9 @@
 import React, { useState } from "react";
+import Link from "next/link";
 
 // react-icons
-import {
-  AiOutlineHome,
-  AiOutlineUser,
-  AiOutlineFolderOpen,
-} from "react-icons/ai";
-import { BiMessageSquareDetail } from "react-icons/bi";
-import { RiServiceLine, RiComputerLine } from "react-icons/ri";
+import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { RiComputerLine } from "react-icons/ri";
 import { VscFolderOpened } from "react-icons/vsc";
 import { RiMessage2Line } from "react-icons/ri";
 
@@ -28,57 +24,77 @@ function Nav({
     <nav className="nav">
       {/* header */}
       {headerActive ? (
-        <a href="#" className="active">
-          <AiOutlineHome />
-        </a>
+        <Link href="#" passHref>
+          <a className="active">
+            <AiOutlineHome />
+          </a>
+        </Link>
       ) : (
-        <a href="#" onClick={() => handleActiveNav("#")}>
-          <AiOutlineHome />
-        </a>
+        <Link href="#" passHref>
+          <a onClick={() => handleActiveNav("#")}>
+            <AiOutlineHome />
+          </a>
+        </Link>
       )}
 
       {/* about */}
       {aboutActive ? (
-        <a href="#about" className="active">
-          <AiOutlineUser />
-        </a>
+        <Link href="#about" passHref>
+          <a className="active">
+            <AiOutlineUser />
+          </a>
+        </Link>
       ) : (
-        <a href="#about" onClick={() => handleActiveNav("#about")}>
-          <AiOutlineUser />
-        </a>
+        <Link href="#about" passHref>
+          <a onClick={() => handleActiveNav("#about")}>
+            <AiOutlineUser />
+          </a>
+        </Link>
       )}
 
       {/* experience */}
       {experienceActive ? (
-        <a href="#experience" className="active">
-          <RiComputerLine />
-        </a>
+        <Link href="#experience" passHref>
+          <a className="active">
+            <RiComputerLine />
+          </a>
+        </Link>
       ) : (
-        <a href="#experience" onClick={() => handleActiveNav("#experience")}>
-          <RiComputerLine />
-        </a>
+        <Link href="#experience" passHref>
+          <a onClick={() => handleActiveNav("#experience")}>
+            <RiComputerLine />
+          </a>
+        </Link>
       )}
 
       {/* portfoliio */}
       {portfolioActive ? (
-        <a href="#portfolio" className="active">
-          <VscFolderOpened />
-        </a>
+        <Link href="#portfolio" passHref>
+          <a className="active">
+            <VscFolderOpened />
+          </a>
+        </Link>
       ) : (
-        <a href="#portfolio" onClick={() => handleActiveNav("#portfolio")}>
-          <VscFolderOpened />
-        </a>
+        <Link href="#portfolio" passHref>
+          <a onClick={() => handleActiveNav("#portfolio")}>
+            <VscFolderOpened />
+          </a>
+        </Link>
       )}
 
       {/* contact */}
       {contactActive ? (
-        <a href="#contact" className="active">
-          <RiMessage2Line />
-        </a>
+        <Link href="#contact" passHref>
+          <a className="active">
+            <RiMessage2Line />
+          </a>
+        </Link>
       ) : (
-        <a href="#contact" onClick={() => handleActiveNav("#contact")}>
-          <RiMessage2Line />
-        </a>
+        <Link href="#contact" passHref>
+          <a onClick={() => handleActiveNav("#contact")}>
+            <RiMessage2Line />
+          </a>
+        </Link>
       )}
     </nav>
   );

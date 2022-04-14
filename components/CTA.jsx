@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-// import CV from "../public/assets/cv-berlianto.pdf";
 
 function CTA() {
   return (
