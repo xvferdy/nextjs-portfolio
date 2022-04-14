@@ -1,4 +1,3 @@
-import { useEffect, useRef } from "react";
 import Head from "next/head";
 
 // components
@@ -12,13 +11,14 @@ import Portfolio from "../components/Portfolio";
 import Services from "../components/Services";
 import Quotes from "../components/Quotes";
 
+// react-intersection-observer
 import { useInView } from "react-intersection-observer";
 
 export default function Home({ myData }) {
   const { ref: headerRef, inView: headerActive } = useInView();
   const { ref: aboutRef, inView: aboutActive } = useInView();
   const { ref: experienceRef, inView: experienceActive } = useInView();
-  const { ref: servicesRef, inView: serviceActive } = useInView();
+  const { ref: portfolioRef, inView: portfolioActive } = useInView();
   const { ref: contactRef, inView: contactActive } = useInView();
 
   return (
@@ -39,14 +39,14 @@ export default function Home({ myData }) {
         aboutActive={aboutActive}
         experienceActive={experienceActive}
         headerActive={headerActive}
-        serviceActive={serviceActive}
+        portfolioActive={portfolioActive}
         contactActive={contactActive}
       />
       <main className="main">
         <About aboutRef={aboutRef} />
         <Experience experienceRef={experienceRef} />
-        <Services servicesRef={servicesRef} />
-        <Portfolio />
+        <Services />
+        <Portfolio portfolioRef={portfolioRef} />
         <Quotes />
         <Contact {...myData} contactRef={contactRef} />
       </main>

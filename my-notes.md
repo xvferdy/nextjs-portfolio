@@ -2,23 +2,23 @@
 
 ## Todos
 **easy**
-- [ ] sass url img
+- [x] sass url img
 - [x] web title
-- [ ] favicon
+- [x] favicon
 - [x] color naming
 - [ ] delete unused file (like this one)
 - [ ] delete unused code (import, ect)
 - [ ] typo html content
 - [ ] check chrome
 - [x] hero p line height
-- [ ] check & see html inspector
-- [ ] check f12 console
-- [ ] change google font
+- [x] check & see html inspector
+- [x] check f12 console
+- [x] change google font
 - [x] rapihkan main.scss
 - [x] font weight light not aplied()
 - [ ] typo
 - [x] delete service jsx scss
-- [ ] css folder update with sass watch
+- [x] css folder update with sass watch
 - [x] font small mobile devices
 - [x] change some content html literal
 - [ ] contact nav change portfolio

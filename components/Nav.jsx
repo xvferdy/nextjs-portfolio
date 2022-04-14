@@ -1,15 +1,21 @@
 import React, { useState } from "react";
 
 // react-icons
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
-import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+import {
+  AiOutlineHome,
+  AiOutlineUser,
+  AiOutlineFolderOpen,
+} from "react-icons/ai";
+import { BiMessageSquareDetail } from "react-icons/bi";
+import { RiServiceLine, RiComputerLine } from "react-icons/ri";
+import { VscFolderOpened } from "react-icons/vsc";
+import { RiMessage2Line } from "react-icons/ri";
 
 function Nav({
   headerActive,
   aboutActive,
   experienceActive,
-  serviceActive,
+  portfolioActive,
   contactActive,
 }) {
   const [activeNav, setActiveNav] = useState("#");
@@ -45,33 +51,33 @@ function Nav({
       {/* experience */}
       {experienceActive ? (
         <a href="#experience" className="active">
-          <BiBook />
+          <RiComputerLine />
         </a>
       ) : (
         <a href="#experience" onClick={() => handleActiveNav("#experience")}>
-          <BiBook />
+          <RiComputerLine />
         </a>
       )}
 
-      {/* services */}
-      {serviceActive ? (
-        <a href="#services" className="active">
-          <RiServiceLine />
+      {/* portfoliio */}
+      {portfolioActive ? (
+        <a href="#portfolio" className="active">
+          <VscFolderOpened />
         </a>
       ) : (
-        <a href="#services" onClick={() => handleActiveNav("#services")}>
-          <RiServiceLine />
+        <a href="#portfolio" onClick={() => handleActiveNav("#portfolio")}>
+          <VscFolderOpened />
         </a>
       )}
 
       {/* contact */}
       {contactActive ? (
         <a href="#contact" className="active">
-          <BiMessageSquareDetail />
+          <RiMessage2Line />
         </a>
       ) : (
         <a href="#contact" onClick={() => handleActiveNav("#contact")}>
-          <BiMessageSquareDetail />
+          <RiMessage2Line />
         </a>
       )}
     </nav>
