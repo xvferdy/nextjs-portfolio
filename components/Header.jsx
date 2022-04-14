@@ -20,13 +20,7 @@ function Header({ headerRef }) {
         <HeaderSocials />
         <div className="me">
           {/* <img src="/assets/me.png" alt="me" /> */}
-          <Image
-            src="/assets/me.png"
-            width={304}
-            height={400}
-            alt="me"
-            layout="responsive"
-          />
+          <Image src="/assets/me.png" width={304} height={400} alt="me" />
         </div>
         <Link href="#contact" passHref>
           <a className="scroll-down">Scroll Down</a>
