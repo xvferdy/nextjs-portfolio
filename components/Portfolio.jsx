@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function Portfolio({ portfolioRef }) {
   const projects = [
@@ -66,16 +67,16 @@ function Portfolio({ portfolioRef }) {
             </div>
             <h3>{project.title}</h3>
             <div className="portfolio__item-cta">
-              <a className="btn" href={project.github} target="_blank">
-                Github Repo
-              </a>
-              <a
-                className="btn btn--primary"
-                href={project.demo}
-                target="_blank"
-              >
-                Live Demo
-              </a>
+              <Link href={project.github} passHref>
+                <a className="btn" target="_blank">
+                  Github Repo
+                </a>
+              </Link>
+              <Link href={project.demo} passHref>
+                <a className="btn btn--primary" target="_blank">
+                  Live Demo
+                </a>
+              </Link>
             </div>
           </article>
         ))}

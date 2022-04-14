@@ -36,7 +36,7 @@
 - [x] check link
 - [x] glow nav, backdrop https://www.youtube.com/watch?v=oy8dSsK57Ps
 - [x] `width:` di .me className="me" dan width lainnya cek
-- [ ] change `<img />` to `<Image />`
+- [x] change `<img />` to `<Image />`
 - [ ] `<a />` to `<Link />`
 - [ ] check layout shift (while adjust sreen size and after page refresh)
 - [ ] refacrot `.main` setidaknya pakai grid gap

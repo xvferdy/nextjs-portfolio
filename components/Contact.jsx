@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import Link from "next/link";
 
 // emailjs
 import emailjs from "emailjs-com";
@@ -35,28 +36,28 @@ function Contact({ serviceId, templateId, userId, contactRef }) {
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>berlianto.ferdynand@gmail.com</h5>
-            <a href="mailto:berlianto.ferdynand@gmail.com" target="_blank">
-              Send a message
-            </a>
+            <Link href="mailto:berlianto.ferdynand@gmail.com" passHref>
+              <a target="_blank">Send a message</a>
+            </Link>
           </article>
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>xvferdy</h5>
-            <a href="https://m.me/xv.ferdy" target="_blank">
-              Send a message
-            </a>
+            <Link href="https://m.me/xv.ferdy" passHref>
+              <a target="_blank">Send a message</a>
+            </Link>
           </article>
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>+6282292685156</h5>
-            <a
+            <Link
               href="https://api.whatsapp.com/send?phone=+6282292685156"
-              target="_blank"
+              passHref
             >
-              Send a message
-            </a>
+              <a target="_blank">Send a message</a>
+            </Link>
           </article>
         </div>
 

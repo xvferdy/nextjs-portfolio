@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 // components
 import CTA from "./CTA";
@@ -27,9 +28,9 @@ function Header({ headerRef }) {
             layout="responsive"
           />
         </div>
-        <a href="#contact" className="scroll-down">
-          Scroll Down
-        </a>
+        <Link href="#contact" passHref>
+          <a className="scroll-down">Scroll Down</a>
+        </Link>
       </div>
     </header>
   );

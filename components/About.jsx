@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 // react-icons
 import { FaAward } from "react-icons/fa";
@@ -53,9 +54,9 @@ function About({ aboutRef }) {
             to create something beautiful with cool people that bring out the
             best in me.
           </p>
-          <a href="#contact" className="btn btn--primary">
-            Let's Talk
-          </a>
+          <Link href="#contact" passHref>
+            <a className="btn btn--primary">Let's Talk</a>
+          </Link>
         </div>
       </div>
     </section>
