@@ -9,31 +9,46 @@ import Header from "../components/Header";
 import Nav from "../components/Nav";
 import Portfolio from "../components/Portfolio";
 import Services from "../components/Services";
-import Testimonials from "../components/Testimonials";
+import Quotes from "../components/Quotes";
+
+// react-intersection-observer
+import { useInView } from "react-intersection-observer";
 
 export default function Home({ myData }) {
+  const { ref: headerRef, inView: headerActive } = useInView();
+  const { ref: aboutRef, inView: aboutActive } = useInView();
+  const { ref: experienceRef, inView: experienceActive } = useInView();
+  const { ref: portfolioRef, inView: portfolioActive } = useInView();
+  const { ref: contactRef, inView: contactActive } = useInView();
+
   return (
     <>
       <Head>
-        <title>berlianto</title>
+        <title>Berlianto</title>
         <meta name="keyword" content="Portfolio, resume" />
         <meta
           name="description"
-          content="Hello there this is my 4th portfolio that I create after not been coding for a while"
+          content="Hello there, this is my 4th portfolio that I create after not been coding for a while"
         />
         <meta name="author" content="Berlianto Ferdynand Pongbubun" />
-        <link rel="icon" href="/favicon2.ico" />
+        <link rel="icon" href="/favicon-me.ico" />
       </Head>
 
-      <Header />
-      <Nav />
+      <Header headerRef={headerRef} />
+      <Nav
+        aboutActive={aboutActive}
+        experienceActive={experienceActive}
+        headerActive={headerActive}
+        portfolioActive={portfolioActive}
+        contactActive={contactActive}
+      />
       <main className="main">
-        <About />
-        <Experience />
+        <About aboutRef={aboutRef} />
+        <Experience experienceRef={experienceRef} />
         <Services />
-        <Portfolio />
-        <Testimonials />
-        <Contact {...myData} />
+        <Portfolio portfolioRef={portfolioRef} />
+        <Quotes />
+        <Contact {...myData} contactRef={contactRef} />
       </main>
       <Footer />
     </>

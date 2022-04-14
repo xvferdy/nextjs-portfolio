@@ -1,54 +1,78 @@
 import React from "react";
+import Link from "next/link";
 
 // react-icons
-import { FaFacebookF } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
-import { IoLogoTwitter } from "react-icons/io";
+import { BsLinkedin } from "react-icons/bs";
+import { SiFrontendmentor } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
     <footer className="footer">
-      <a href="#" className="footer__logo">
-        berlianto
-      </a>
+      <Link href="#" passHref>
+        <a className="footer__logo">Berlianto F. P.</a>
+      </Link>
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <Link href="#" passHref>
+            <a>Home</a>
+          </Link>
         </li>
         <li>
-          <a href="#about">About</a>
+          <Link href="#about" passHref>
+            <a>About</a>
+          </Link>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <Link href="#experience" passHref>
+            <a>Experience</a>
+          </Link>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <Link href="#services" passHref>
+            <a>Services</a>
+          </Link>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <Link href="#portfolio" passHref>
+            <a>Portfolio</a>
+          </Link>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <Link href="#quotes" passHref>
+            <a>Quotes</a>
+          </Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link href="#contact" passHref>
+            <a>Contact</a>
+          </Link>
         </li>
       </ul>
 
       <div className="footer__socials">
-        <a href="google.com">
-          <FaFacebookF />
-        </a>
-        <a href="google.com">
-          <FiInstagram />
-        </a>
-        <a href="google.com">
-          <IoLogoTwitter />
-        </a>
+        <Link
+          href="https://www.linkedin.com/in/berlianto-ferdynand-pongbubun/"
+          passHref
+        >
+          <a target="_blank">
+            <BsLinkedin />
+          </a>
+        </Link>
+        <Link href="https://github.com/xvferdy/" passHref>
+          <a target="_blank">
+            <FaGithub />
+          </a>
+        </Link>
+        <Link href="https://www.frontendmentor.io/profile/xvferdy" passHref>
+          <a target="_blank">
+            <SiFrontendmentor />
+          </a>
+        </Link>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; EGATOR Tutorials. All rights reserved.</small>
+        <small>&copy; 2022 All rights reserved.</small>
       </div>
     </footer>
   );

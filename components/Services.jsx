@@ -15,19 +15,7 @@ function Service() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Sit amet consectetur adipisicing elit. Ea, velit!</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit.</p>
+              <p>UX research.</p>
             </li>
           </ul>
         </article>
@@ -40,23 +28,20 @@ function Service() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Sit amet consectetur adipisicing elit. Ea, velit!</p>
+              <p>
+                Translating mock-ups into up running web using React JS and
+                Sass.
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Building websites that are responsive and usable.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Pariatur pariatur deserunt aliqua minim aliqua.</p>
+              <p>
+                Fixing bugs and technical issues before and after deploying.
+              </p>
             </li>
           </ul>
         </article>
@@ -69,15 +54,7 @@ function Service() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Pariatur pariatur deserunt aliqua minim aliqua.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>Documenting the codes using Markup language.</p>
             </li>
           </ul>
         </article>

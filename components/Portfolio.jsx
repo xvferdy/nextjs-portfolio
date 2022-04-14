@@ -1,6 +1,8 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
-function Portfolio() {
+function Portfolio({ portfolioRef }) {
   const projects = [
     {
       id: 1,
@@ -47,27 +49,34 @@ function Portfolio() {
   ];
   return (
     <section id="portfolio" className="portfolio">
-      <h5>My Recent Work</h5>
+      <h5 ref={portfolioRef}>My Recent Work</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
         {projects.map((project) => (
           <article key={project.id} className="portfolio__item">
             <div className="portfolio__item-image" title={project.title}>
-              <img src={project.image} alt={project.title} />
+              {/* <img src={project.image} alt={project.title} /> */}
+              <Image
+                src={project.image}
+                alt={project.title}
+                width={644}
+                height={483}
+                layout="responsive"
+              />
             </div>
             <h3>{project.title}</h3>
             <div className="portfolio__item-cta">
-              <a className="btn" href={project.github} target="_blank">
-                Github Repo
-              </a>
-              <a
-                className="btn btn--primary"
-                href={project.demo}
-                target="_blank"
-              >
-                Live Demo
-              </a>
+              <Link href={project.github} passHref>
+                <a className="btn" target="_blank">
+                  Github Repo
+                </a>
+              </Link>
+              <Link href={project.demo} passHref>
+                <a className="btn btn--primary" target="_blank">
+                  Live Demo
+                </a>
+              </Link>
             </div>
           </article>
         ))}

@@ -5,7 +5,7 @@
   width: max-content;
   display: block;
   padding: 0.7rem 1.7rem;
-  z-index: 2;
+  z-index: 5;
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
@@ -29,7 +29,9 @@
   .active {
     background-color: $primary-color;
     color: $background-color;
+    filter: drop-shadow(0 0 5px $gold);
   }
+  animation: nav 1s ease-in-out;
 
   // MEDIA-QUERIES
   @include display(sm-phone) {
@@ -38,5 +40,14 @@
     a {
       padding: 0.7rem;
     }
+  }
+}
+
+@keyframes nav {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

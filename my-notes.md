@@ -1,67 +1,70 @@
 # my-notes
 
 ## Todos
-**easy**
-- [ ] sass url img
+**Easy**
+- [x] sass url img
 - [x] web title
-- [ ] favicon
-- [ ] color naming
+- [x] favicon
+- [x] color naming
+- [x] hero p line height
+- [x] check & see html inspector
+- [x] check f12 console
+- [x] change google font
+- [x] rapihkan main.scss
+- [x] font weight light not aplied()
+- [x] delete service jsx scss
+- [x] css folder update with sass watch
+- [x] font small mobile devices
+- [x] change some content html literal
+- [x] contact nav change portfolio
+- [x] png drop shadow
+- [x] contact me button state reset input
+- [x] nextjs backend experience section  
+- [ ] check z-index chrome
 - [ ] delete unused file (like this one)
 - [ ] delete unused code (import, ect)
 - [ ] typo html content
 - [ ] check chrome
-- [x] hero p line height
-- [ ] check & see html inspector
-- [ ] check f12 console
-- [ ] change google font
-- [x] rapihkan main.scss
-- [ ] .btn terapkan mixin btn
-- [x] font weight light not aplied()
 - [ ] typo
-- [x] delete service jsx scss
-- [ ] css folder delete or update with sass watch
-- [x] font small mobile devices
-- [ ] link social all square/round
-- [ ] change some content html literal
-- [ ] contact nav change portfolio
-- [ ] png drop shadow
-- [ ] contact me button state
+- [ ] docs
 
-**hard**
-- [ ] change `<img />` to `<Image />`
-- [ ] implement `@each` sass
-- [ ] px to rem, google rem to px generqator
-- [ ] implement %custom-placeholder
-- [ ] html semantic
-- [ ] footer improve
-- [ ] check layout shift (while adjust sreen size and after page refresh)
-- [ ] implement `clamp()`
+**Hard**
+- [x] html semantic
 - [x] download pdf https://github.com/vercel/next.js/discussions/25981
+- [x] improve tablet mobile view
+- [x] scroll state nav (react intersection observer)
+- [x] check link
+- [x] glow nav, backdrop https://www.youtube.com/watch?v=oy8dSsK57Ps
+- [x] `width:` di .me className="me" dan width lainnya cek
+- [x] change `<img />` to `<Image />`
+- [x] `<a />` to `<Link />`
+- [x] cek `width` ke `max/min-width`
+- [ ] check layout shift (while adjust sreen size and after page refresh)
+- [ ] check performance > 1s load time? 
+- [ ] modal portfolio img hd on click (hover like nft, isinya exitbtn desc picture hd)
+
+**Optional**
+- [ ] implement `@each` sass
+- [ ] .btn terapkan mixin btn, tulis di layout
+- [ ] refacrot `.main` setidaknya pakai grid gap
 - [ ] remove react-icon dependen with material ui
 - [ ] matrial ui new feature, ux alert after send msg
-- [ ] refacrot `.main` setidaknya pakai grid gap
-- [x] improve tablet mobile view
-- [ ] `<a />` to `<Link />`
+- [ ] footer improve
 - [ ] cek `height` ke `max/min-height`
-- [ ] cek `width` ke `max/min-width`
-- [ ] scroll state nav (react intersection observer)
 - [ ] utils file for maping information
-- [ ] tooltip nav
-- [ ] check link
-- [ ] `width:` di .me className="me" dan width lainnya cek
-- [ ] modal portfolio img hd on click
+- [ ] btn github and link icon (portfolio btn)
 - [ ] portfolio img border style improve
-- [ ] glow nav, backdrop https://www.youtube.com/watch?v=oy8dSsK57Ps
-- [ ] btn github and link icon
+
 
 ## Timeline
 
 ## Notes
 - work with some image using import utils, best practice
 
-## Bug/bad bahaviour/I'm upset for/not statisfied/
+## Bug/bad bahaviour/I'm upset for/not statisfied/cantfix
 - layout not good when the window get small (desktop)
 - accesbility is not so good
+- mobile nav bad state classname / style
 
 ## Readme
 

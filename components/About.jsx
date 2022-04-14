@@ -1,21 +1,28 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
 
 // react-icons
 import { FaAward } from "react-icons/fa";
 import { GoTasklist } from "react-icons/go";
 import { BsHeadset } from "react-icons/bs";
 
-function About() {
+function About({ aboutRef }) {
   return (
     <section id="about" className="about">
-      <h5>Get To Know</h5>
+      <h5 ref={aboutRef}>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src="/assets/me-about.png" alt="Photo of Berlianto" />
-            {/* <img src="/assets/me-about-ori.jpg" alt="Photo of Berlianto" /> */}
+            {/* <img src="/assets/me-about.png" alt="Photo of Berlianto" /> */}
+            <Image
+              src="/assets/me-about.png"
+              width={457}
+              height={535}
+              alt="Photo of Berlianto"
+            />
           </div>
         </div>
 
@@ -38,22 +45,18 @@ function About() {
             </article>
           </div>
           <p>
-            I love learning new stuff with better ways like user experiences
-            with clean, efficient, and scalable code. I consider looking for
-            opportunities to work with those who are willing to share their
-            knowledge as much as I want to learn. At the end of the day, my
-            primary goal is to create something beautiful with cool people that
-            bring out the best in me.
-            <span>
-              {" "}
-              When I'm not in front of a computer screen, I'm probably eating,
-              looking up to the sky, watching movies, or sleeping in the
-              morning.
-            </span>
+            I learn programming for the first time in 2019, and in 2021 I'm
+            focusing web development on the client side, and until now I'm still
+            learning it. I love learning new stuff with better ways like user
+            experiences with clean, efficient, and scalable code. Sometimes I do
+            frontend challenges by making user interface at{" "}
+            <a>frontendmentor.io</a> At the end of the day, my primary goal is
+            to create something beautiful with cool people that bring out the
+            best in me.
           </p>
-          <a href="#contact" className="btn btn--primary">
-            Let's Talk
-          </a>
+          <Link href="#contact" passHref>
+            <a className="btn btn--primary">Let's Talk</a>
+          </Link>
         </div>
       </div>
     </section>

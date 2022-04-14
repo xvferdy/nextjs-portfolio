@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import Link from "next/link";
 
 // emailjs
 import emailjs from "emailjs-com";
@@ -8,7 +9,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 
-function Contact({ serviceId, templateId, userId }) {
+function Contact({ serviceId, templateId, userId, contactRef }) {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -26,7 +27,7 @@ function Contact({ serviceId, templateId, userId }) {
 
   return (
     <section id="contact" className="contact">
-      <h5>Get In Touch</h5>
+      <h5 ref={contactRef}>Get In Touch</h5>
       <h2>Contact Me</h2>
 
       <div className="container contact__container">
@@ -35,28 +36,28 @@ function Contact({ serviceId, templateId, userId }) {
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>berlianto.ferdynand@gmail.com</h5>
-            <a href="mailto:berlianto.ferdynand@gmail.com" target="_blank">
-              Send a message
-            </a>
+            <Link href="mailto:berlianto.ferdynand@gmail.com" passHref>
+              <a target="_blank">Send a message</a>
+            </Link>
           </article>
           <article className="contact__option">
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>xvferdy</h5>
-            <a href="https://m.me/xv.ferdy" target="_blank">
-              Send a message
-            </a>
+            <Link href="https://m.me/xv.ferdy" passHref>
+              <a target="_blank">Send a message</a>
+            </Link>
           </article>
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>+6282292685156</h5>
-            <a
+            <Link
               href="https://api.whatsapp.com/send?phone=+6282292685156"
-              target="_blank"
+              passHref
             >
-              Send a message
-            </a>
+              <a target="_blank">Send a message</a>
+            </Link>
           </article>
         </div>
 
