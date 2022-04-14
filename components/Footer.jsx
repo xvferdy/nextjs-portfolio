@@ -13,7 +13,7 @@ function Footer() {
   return (
     <footer className="footer">
       <a href="#" className="footer__logo">
-        berlianto
+        Berlianto F. P.
       </a>
       <ul className="permalinks">
         <li>

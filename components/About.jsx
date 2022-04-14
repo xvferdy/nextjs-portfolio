@@ -38,18 +38,14 @@ function About({ aboutRef }) {
             </article>
           </div>
           <p>
-            I love learning new stuff with better ways like user experiences
-            with clean, efficient, and scalable code. I consider looking for
-            opportunities to work with those who are willing to share their
-            knowledge as much as I want to learn. At the end of the day, my
-            primary goal is to create something beautiful with cool people that
-            bring out the best in me.
-            <span>
-              {" "}
-              When I'm not in front of a computer screen, I'm probably eating,
-              looking up to the sky, watching movies, or sleeping in the
-              morning.
-            </span>
+            I learn programming for the first time in 2019, and in 2021 I'm
+            focusing web development on the client side, and until now I'm still
+            learning it. I love learning new stuff with better ways like user
+            experiences with clean, efficient, and scalable code. Sometimes I do
+            frontend challenges by making user interface at{" "}
+            <a>frontendmentor.io</a> At the end of the day, my primary goal is
+            to create something beautiful with cool people that bring out the
+            best in me.
           </p>
           <a href="#contact" className="btn btn--primary">
             Let's Talk

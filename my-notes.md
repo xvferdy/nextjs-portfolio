@@ -5,7 +5,7 @@
 - [ ] sass url img
 - [x] web title
 - [ ] favicon
-- [ ] color naming
+- [x] color naming
 - [ ] delete unused file (like this one)
 - [ ] delete unused code (import, ect)
 - [ ] typo html content
@@ -15,31 +15,29 @@
 - [ ] check f12 console
 - [ ] change google font
 - [x] rapihkan main.scss
-- [ ] .btn terapkan mixin btn
 - [x] font weight light not aplied()
 - [ ] typo
 - [x] delete service jsx scss
-- [ ] css folder delete or update with sass watch
+- [ ] css folder update with sass watch
 - [x] font small mobile devices
-- [ ] link social all square/round
-- [ ] change some content html literal
+- [x] change some content html literal
 - [ ] contact nav change portfolio
-- [ ] png drop shadow
-- [ ] contact me button state
+- [x] png drop shadow
+- [x] contact me button state reset input
 - [ ] hapus html di experience g
-- [ ] quote img js text js, omg react text react, img programmermeme text meme
 - [ ] check z-index chrome
+- [ ] nextjs backend experience section  
 
 **hard**
 - [ ] change `<img />` to `<Image />`
 - [ ] `<a />` to `<Link />`
 - [ ] implement `@each` sass
+- [ ] .btn terapkan mixin btn
 - [ ] px to rem, google rem to px generqator
 - [ ] implement %custom-placeholder
-- [ ] html semantic
+- [x] html semantic
 - [ ] footer improve
 - [ ] check layout shift (while adjust sreen size and after page refresh)
-- [ ] implement `clamp()`
 - [x] download pdf https://github.com/vercel/next.js/discussions/25981
 - [ ] remove react-icon dependen with material ui
 - [ ] matrial ui new feature, ux alert after send msg
@@ -47,14 +45,14 @@
 - [x] improve tablet mobile view
 - [ ] cek `height` ke `max/min-height`
 - [ ] cek `width` ke `max/min-width`
-- [ ] scroll state nav (react intersection observer)
+- [x] scroll state nav (react intersection observer)
 - [ ] utils file for maping information
 - [ ] tooltip nav
 - [ ] check link
 - [ ] `width:` di .me className="me" dan width lainnya cek
-- [ ] modal portfolio img hd on click
+- [ ] modal portfolio img hd on click (hover like nft, isinya exitbtn desc picture hd)
 - [ ] portfolio img border style improve
-- [ ] glow nav, backdrop https://www.youtube.com/watch?v=oy8dSsK57Ps
+- [x] glow nav, backdrop https://www.youtube.com/watch?v=oy8dSsK57Ps
 - [ ] btn github and link icon
 - [ ] performance > 1s load time? 
 

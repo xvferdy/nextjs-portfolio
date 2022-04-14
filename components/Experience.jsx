@@ -97,6 +97,13 @@ function Experience({ experienceRef }) {
                 <small className="text-light">Newbie</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Next JS</h4>
+                <small className="text-light">Newbie</small>
+              </div>
+            </article>
           </div>
         </div>
       </div>

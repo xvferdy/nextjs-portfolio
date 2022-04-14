@@ -1,20 +1,13 @@
 /* === COLORS === */
-// $background-color: #1f1f38;
-// $background-variant-color: #2c2c6c;
-// $primary-color: #4db5ff;
-// $primary-variant-color: rgba(77, 181, 255, 0.4);
-// $white: #fff;
-// $light: rgba(255, 255, 255, 0.6);
-// $theme-colors: (
-//   "primary": $primary-color,
-// );
-
 $background-color: #1d1919;
 $background-variant-color: #233142;
 $primary-color: #f7af1d;
 $primary-variant-color: rgba(247, 175, 29, 0.4);
 $white: #e6e6e6;
 $light: rgba(255, 255, 255, 0.6);
+$theme-colors: (
+  "primary": $primary-color,
+);
 
 /* === FONTS === */
 // @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');

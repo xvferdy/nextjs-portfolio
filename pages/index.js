@@ -24,14 +24,14 @@ export default function Home({ myData }) {
   return (
     <>
       <Head>
-        <title>berlianto</title>
+        <title>Berlianto</title>
         <meta name="keyword" content="Portfolio, resume" />
         <meta
           name="description"
           content="Hello there, this is my 4th portfolio that I create after not been coding for a while"
         />
         <meta name="author" content="Berlianto Ferdynand Pongbubun" />
-        <link rel="icon" href="/favicon2.ico" />
+        <link rel="icon" href="/favicon-me.ico" />
       </Head>
 
       <Header headerRef={headerRef} />
