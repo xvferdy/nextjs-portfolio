@@ -77,7 +77,7 @@ h3 {
 <details>
     <summary>☑️ <b>Unselectable element</b></summary> <br>
   
-`user-select: none` good for things like carousel 
+`user-select: none` good for things like carousel.
 ###### styles/scss/components\_quotes.scss
 ```scss
 .quote {
@@ -94,7 +94,7 @@ h3 {
 <details>
     <summary>☑️ <b>word-break</b></summary> <br>
   
-`word-break: break-all` to wrap long element (that has no space)
+`word-break: break-all` to wrap long element (that has no space).
 ###### styles/scss/components\_contact.scss
 ```scss
 &__option {
@@ -124,13 +124,6 @@ h3 {
     e.target.reset();
   };
 ```
-</details>
-
-<details>
-    <summary>☑️ <b>Respect deadlines</b></summary> <br>
-  
-Should have left some extra time for testing the production sites and write some documentation
-
 </details>
 
 <h3 align="right">
