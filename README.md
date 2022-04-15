@@ -1,12 +1,15 @@
 # nextjs-portfolio
+> Code along with **Ernest Achiever** from [📺 youtube](https://www.youtube.com/watch?v=G-Cr00UYokU "Ernest Achiever's youtube")  
 
 ## About the Project
-Re-learn basic of frontend web development after not actively code for the last few months. The project is about creating portfolio web layout using **Next JS**
+Re-learn basic of frontend web development after not actively code for the last few months. The project is about creating portfolio web layout using **Next JS**.
 
-**Preview**
+**Preview** 👓
+<p align="center">
+  <img src="./public/assets/preview.png">
+</p>
 
-## Demo
-https://nextjs-portfolio-xvferdy.vercel.app
+ **Demo**: https://nextjs-portfolio-xvferdy.vercel.app
 
 ## Installation
 ```
@@ -20,8 +23,6 @@ npm run dev
 - [emailjs-com](https://www.emailjs.com/ "emailjs")
 - [react-icons](https://react-icons.github.io/react-icons/ "react-icons")
 - [swiper](https://swiperjs.com/ "swiper")
-
-
 
 ## What I learned
 
@@ -132,4 +133,6 @@ Should have left some extra time for testing the production sites and write some
 
 </details>
 
-## Difficult Things
+<h3 align="right">
+      <a href="#readme">To Top ⤴️</a>
+</h3>
