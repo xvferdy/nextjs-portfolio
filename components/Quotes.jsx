@@ -30,7 +30,7 @@ function Quotes() {
         "The more I study, the more insatiable do I feel my genius for it to be.",
     },
     {
-      avatar: "/assets/avatar-4.jpg",
+      avatar: "/assets/avatar-4.JPG",
       name: "Dave",
       review: "Programming is not stressful at all. Dave - 24 years old",
     },
