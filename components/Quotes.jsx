@@ -32,7 +32,7 @@ function Quotes() {
     {
       avatar: "/assets/avatar-4.JPG",
       name: "Dave",
-      review: "Programming is not stressful at all. Dave - 24 years old",
+      review: "Programming is not stressful at all ~ Dave - 26 years old.",
     },
   ];
 
