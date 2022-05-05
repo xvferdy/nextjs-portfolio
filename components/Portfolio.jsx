@@ -5,6 +5,14 @@ import Link from "next/link";
 function Portfolio({ portfolioRef }) {
   const projects = [
     {
+      id: 2,
+      image: "/assets/portfolio2.jpg",
+      title: "Simple Chat App",
+      github: "https://github.com/xvferdy/simple-chat-app",
+      demo: "https://simple-chat-app-xvferdy.netlify.app/",
+    },
+
+    {
       id: 1,
       image: "/assets/portfolio1.jpg",
       title: "NFT Preview Card Component",
@@ -12,11 +20,19 @@ function Portfolio({ portfolioRef }) {
       demo: "https://xvferdy.github.io/fem-nft-preview-card-component/",
     },
     {
-      id: 2,
-      image: "/assets/portfolio2.jpg",
-      title: "Simple Chat App",
-      github: "https://github.com/xvferdy/simple-chat-app",
-      demo: "https://simple-chat-app-xvferdy.netlify.app/",
+      id: 6,
+      image: "/assets/portfolio8.png",
+      title: "Simple Food Ordering",
+      github: "https://github.com/xvferdy/kedai-gelato",
+      demo: "https://kedai-gelato.vercel.app/",
+    },
+
+    {
+      id: 4,
+      image: "/assets/portfolio4.jpg",
+      title: "E-commerce Product Page",
+      github: "https://github.com/xvferdy/fem-ecommerce-product-page",
+      demo: "https://ecommerce-product-page-xvferdy.netlify.app/",
     },
     {
       id: 3,
@@ -26,25 +42,11 @@ function Portfolio({ portfolioRef }) {
       demo: "https://time-tracking-dashboard-xvferdy.netlify.app/",
     },
     {
-      id: 4,
-      image: "/assets/portfolio4.jpg",
-      title: "E-commerce Product Page",
-      github: "https://github.com/xvferdy/fem-ecommerce-product-page",
-      demo: "https://ecommerce-product-page-xvferdy.netlify.app/",
-    },
-    {
       id: 5,
-      image: "/assets/portfolio5.jpg",
-      title: "Jojo tarot Card",
-      github: "https://github.com/xvferdy/tarot-of-marseilles-sass",
-      demo: "https://xvferdy.github.io/tarot-of-marseilles-sass/",
-    },
-    {
-      id: 6,
-      image: "/assets/portfolio6.jpg",
-      title: "Simple Shopping Cart",
-      github: "https://github.com/xvferdy/shopping-cart-my-ver",
-      demo: "https://xvferdy.github.io/shopping-cart-my-ver/",
+      image: "/assets/portfolio7.png",
+      title: "Video Resume Landing Page",
+      github: "https://github.com/xvferdy/video-resume-landing-page",
+      demo: "https://video-resume-landing-page.vercel.app/",
     },
   ];
   return (
