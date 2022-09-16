@@ -40,7 +40,7 @@ function Portfolio({ portfolioRef }) {
       title: "Mobile E-commerce",
       github: false,
       figma:
-        "https://www.figma.com/file/yAkTg78KWB4BhffskTuGRk/EXERCISE-Design-System-%2B-Final-Composition-%2B-Prototypes?node-id=146%3A4583",
+        "https://www.figma.com/file/yAkTg78KWB4BhffskTuGRk/EXERCISE-Design-System-%2B-Final-Composition-%2B-Prototypes?node-id=183%3A8941",
       demo: false,
     },
     {
@@ -62,7 +62,7 @@ function Portfolio({ portfolioRef }) {
     {
       id: 6,
       image: "/assets/portfolio6.png",
-      title: "Food Ordering",
+      title: "Burger Website",
       github: false,
       figma:
         "https://www.figma.com/file/ufNsaM0iOBJIUCiVuHOwgR/DUMMY-PROJECT-mfood?node-id=152%3A278",
