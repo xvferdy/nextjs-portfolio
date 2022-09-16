@@ -35,11 +35,38 @@ function Portfolio({ portfolioRef }) {
       demo: "https://ecommerce-product-page-xvferdy.netlify.app/",
     },
     {
+      id: 8,
+      image: "/assets/portfolio9.png",
+      title: "Mobile E-commerce",
+      github: false,
+      figma:
+        "https://www.figma.com/file/yAkTg78KWB4BhffskTuGRk/EXERCISE-Design-System-%2B-Final-Composition-%2B-Prototypes?node-id=146%3A4583",
+      demo: false,
+    },
+    {
+      id: 7,
+      image: "/assets/portfolio5.png",
+      title: "Mobile E-commerce v.2",
+      github: false,
+      figma:
+        "https://www.figma.com/file/IiWRIO3cO9FFH30XuBmn2p/Habitual-Redesign-High-Fidelity?node-id=111%3A4914",
+      demo: false,
+    },
+    {
       id: 3,
       image: "/assets/portfolio3.jpg",
       title: "Time Tracking Dashboard",
       github: "https://github.com/xvferdy/fem-time-tracking-dashboard",
       demo: "https://time-tracking-dashboard-xvferdy.netlify.app/",
+    },
+    {
+      id: 6,
+      image: "/assets/portfolio6.png",
+      title: "Food Ordering",
+      github: false,
+      figma:
+        "https://www.figma.com/file/ufNsaM0iOBJIUCiVuHOwgR/DUMMY-PROJECT-mfood?node-id=152%3A278",
+      demo: "https://mfood.vercel.app/",
     },
     {
       id: 5,
@@ -69,16 +96,18 @@ function Portfolio({ portfolioRef }) {
             </div>
             <h3>{project.title}</h3>
             <div className="portfolio__item-cta">
-              <Link href={project.github} passHref>
+              <Link href={project.github || project.figma} passHref>
                 <a className="btn" target="_blank">
-                  Github Repo
+                  {project.github ? "Github Repo" : "Figma Assets"}
                 </a>
               </Link>
-              <Link href={project.demo} passHref>
-                <a className="btn btn--primary" target="_blank">
-                  Live Demo
-                </a>
-              </Link>
+              {project.demo && (
+                <Link href={project.demo} passHref>
+                  <a className="btn btn--primary" target="_blank">
+                    Live Demo
+                  </a>
+                </Link>
+              )}
             </div>
           </article>
         ))}
