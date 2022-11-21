@@ -53,7 +53,7 @@ function Contact({ serviceId, templateId, userId, contactRef }) {
             <h4>WhatsApp</h4>
             <h5>+6282292685156</h5>
             <Link
-              href="https://api.whatsapp.com/send?phone=+6282292685156"
+              href="https://api.whatsapp.com/send?phone=6282292685156"
               passHref
             >
               <a target="_blank">Send a message</a>
