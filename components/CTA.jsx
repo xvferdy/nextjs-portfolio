@@ -4,7 +4,7 @@ import React from "react";
 function CTA() {
   return (
     <div className="cta">
-      <Link href="/assets/cv4-2022-Berlianto.pdf" passHref>
+      <Link href="/assets/cv4.pdf" passHref>
         <a className="btn" download target="_blank">
           Download CV
         </a>
