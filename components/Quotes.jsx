@@ -63,6 +63,8 @@ function Quotes() {
                   alt={quote.name}
                   width={70}
                   height={70}
+                  placeholder="blur"
+                  blurDataURL={quote.avatar}
                 />
               </div>
               <h5 className="client__name">{quote.name}</h5>

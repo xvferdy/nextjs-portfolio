@@ -22,6 +22,8 @@ function About({ aboutRef }) {
               width={457}
               height={535}
               alt="Photo of Berlianto"
+              placeholder="blur"
+              blurDataURL="/assets/me-about.png"
             />
           </div>
         </div>

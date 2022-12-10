@@ -34,24 +34,24 @@ function Portfolio({ portfolioRef }) {
       github: "https://github.com/xvferdy/fem-ecommerce-product-page",
       demo: "https://ecommerce-product-page-xvferdy.netlify.app/",
     },
-    {
-      id: 8,
-      image: "/assets/portfolio9.png",
-      title: "Mobile E-commerce",
-      github: false,
-      figma:
-        "https://www.figma.com/file/yAkTg78KWB4BhffskTuGRk/EXERCISE-Design-System-%2B-Final-Composition-%2B-Prototypes?node-id=183%3A8941",
-      demo: false,
-    },
-    {
-      id: 7,
-      image: "/assets/portfolio5.png",
-      title: "Mobile E-commerce v.2",
-      github: false,
-      figma:
-        "https://www.figma.com/file/IiWRIO3cO9FFH30XuBmn2p/Habitual-Redesign-High-Fidelity?node-id=111%3A4914",
-      demo: false,
-    },
+    // {
+    //   id: 8,
+    //   image: "/assets/portfolio9.png",
+    //   title: "Mobile E-commerce",
+    //   github: false,
+    //   figma:
+    //     "https://www.figma.com/file/yAkTg78KWB4BhffskTuGRk/EXERCISE-Design-System-%2B-Final-Composition-%2B-Prototypes?node-id=183%3A8941",
+    //   demo: false,
+    // },
+    // {
+    //   id: 7,
+    //   image: "/assets/portfolio5.png",
+    //   title: "Mobile E-commerce v.2",
+    //   github: false,
+    //   figma:
+    //     "https://www.figma.com/file/IiWRIO3cO9FFH30XuBmn2p/Habitual-Redesign-High-Fidelity?node-id=111%3A4914",
+    //   demo: false,
+    // },
     {
       id: 3,
       image: "/assets/portfolio3.jpg",
@@ -59,15 +59,15 @@ function Portfolio({ portfolioRef }) {
       github: "https://github.com/xvferdy/fem-time-tracking-dashboard",
       demo: "https://time-tracking-dashboard-xvferdy.netlify.app/",
     },
-    {
-      id: 6,
-      image: "/assets/portfolio6.png",
-      title: "Burger Website",
-      github: false,
-      figma:
-        "https://www.figma.com/file/ufNsaM0iOBJIUCiVuHOwgR/DUMMY-PROJECT-mfood?node-id=152%3A278",
-      demo: "https://mfood.vercel.app/",
-    },
+    // {
+    //   id: 6,
+    //   image: "/assets/portfolio6.png",
+    //   title: "Burger Website",
+    //   github: false,
+    //   figma:
+    //     "https://www.figma.com/file/ufNsaM0iOBJIUCiVuHOwgR/DUMMY-PROJECT-mfood?node-id=152%3A278",
+    //   demo: "https://mfood.vercel.app/",
+    // },
     {
       id: 5,
       image: "/assets/portfolio7.png",
@@ -92,6 +92,8 @@ function Portfolio({ portfolioRef }) {
                 width={644}
                 height={483}
                 layout="responsive"
+                placeholder="blur"
+                blurDataURL={project.image}
               />
             </div>
             <h3>{project.title}</h3>
